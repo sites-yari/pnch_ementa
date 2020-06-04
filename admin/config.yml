@@ -26,7 +26,7 @@ collections: #====================| POSTS |=====================================
             fields:
               - label: "Informação principal"
                 name: ementa_main_context
-                widget: object
+                widget: "object"
                 fields:
                   - { label: "Titulo", name: "title", widget: "string" }
                   - { label: "Descrição", name: "desc", widget: "markdown" }
