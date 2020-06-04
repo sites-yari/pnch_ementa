@@ -20,10 +20,12 @@ collections: #====================| POSTS |=====================================
         file: "_data/ementa.yml"
         description: Everything needed for the index
         fields:
+          - { label: "test", name: "test", widget: "string" }
           - label: "Ingles" 
             name: en
             widget: "object"
             fields:
+              - { label: "test", name: "test", widget: "string" }
               - label: "Informação principal"
                 name: ementa_main_context
                 widget: "object"
