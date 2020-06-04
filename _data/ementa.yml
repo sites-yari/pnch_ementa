@@ -1,22 +1,41 @@
-ementa_main_context: 
-  title: Traditional Portuguese cuisine with a twists
-  desc: lorem ipsum ...
+en:
+  ementa_main_context: 
+    title: Traditional Portuguese cuisine with a twists
+    desc: Be sure to take up the chef's delicious suggestions Monday to Friday, let yourself be carried away by our menu or savor our snacks on any day of the week... <br>Our menu is shown to be fresh and varied.
+  menu: 
+    title: Enjoy our chef's suggestions from Monday to Friday and be tempted by new and unexpected offers every week.
+    desc: Pick what tempts you the most between the Sharing or the Tasting menu. <br>Menu Sharing(9€ per person) 2 items + 1 dessert or fruit Tasting Menu (13€ per person) 3 items + 1 dessert or fruit
+  la_carte:
+    starter: Bread, butter, marinated olive and curd cheese seasoned with herbs
+    appetizer: Cream of vegetables<br>"Alheira" (typical Portuguese sausage) filled with cheese and bell pepper sauce<br>Salted cod in Brás style
+    fish: Black rice with squid and prawns<br>Hake au gratin with homemade mayonnaise, served with spinach and mashed potato<br>Salted cod in Braga's style
+    meat: Filled chicken with "farinheira", served with vegetables, mashed potato and azores cheese sauce<br>Sirloin steak with grilled vegetables and rosti potatos<br>Slow cooked veal with mushrooms and crushed sweet potato
+    vegetarian: Pasta with chick peas and mushrooms
+    childrens_menu: Breaded chicken with rice and french fries or mixed salad<br>Hake fillets with rice and french fries or mixed salad
+    desert: Sliced fruit<br>Rosemary cream with almond and orange curd<br>Abade de Priscos pudding with almond crumble and lemon curd<br>Marinated pineapple and curd cheese cheesecake dusted with caramel and pink pepper powder
+    extra_info: extra info content...
+  snacks:
+    title: Leisurely snacks enjoyed any time of day
+    desc: In the restaurant or in the terrace, either inside while you hear the rain or outside so that you can feel the warm sun, nothing is as comforting as relaxing while you eat something... and toast to the truly important things in life.<br><br>Cold sandwiches<br>Hot sandwiches<br>Boards of cheese and Portuguese pork sausages<br>Crepes
 
-menu: 
-  title: menu title content
-  desc: lorem ipsum ...
 
-la_carte:
-  starter: content starter
-  appetizer: content appetizer
-  fish: content fish
-  meat: content meat
-  vegetarian: content vegetarian
-  childrens_menu: content childrens_menu
-  desert: content desert
-  extra_info: extra info content...
 
-snacks:
-  title: snacks title
-  desc: snaks desc
-
+pt:
+  ementa_main_context: 
+    title: Cozinha Portuguese mas com variedade
+    desc: lorem ipsum ...
+  menu: 
+    title: menu title content
+    desc: lorem ipsum ...
+  la_carte:
+    starter: content starter
+    appetizer: content appetizer
+    fish: content fish
+    meat: content meat
+    vegetarian: content vegetarian
+    childrens_menu: content childrens_menu
+    desert: content desert
+    extra_info: extra info content...
+  snacks:
+    title: snacks title
+    desc: snaks desc
