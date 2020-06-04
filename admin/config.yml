@@ -14,7 +14,7 @@ collections: #====================| POSTS |=====================================
     editor:
       preview: true
     files:
-      ---| INDEX |---
+      # ---| INDEX |---
       - name: ementa
         label: "Ementa"
         file: "_data/ementa.yml"
