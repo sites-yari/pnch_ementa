@@ -1,12 +1,47 @@
 .text-center{ text-align: center; }
+.txt-10{ font-size: 10px !important; }
+
 .header-bg_color{ background-color: #53554D; }
 .header-tab_color{ 
   background-color: #9B9936; 
   color: white;
 }
+
 .content_center{ align-content: center; }
 .invisible_content{ opacity: 0; }
+.main_divition_content{
+  width: 80%;
+  height: 1px;
+  margin: 0px auto;
+  border-bottom: 2px solid #53554D;
+}
+.divition_content{
+  width: 65%;
+  height: 1px;
+  margin: 0px auto;
+  border-bottom: 1px solid #9B9936;
+}
 
+/* --- Ementa special css --- */
+.ementa_title{
+  font-size: 19px;
+  font-weight: bold;
+  color: #707070;
+}
+.ementa_content{
+  font-size: 19px;
+  font-weight: 300;
+  color: #9B9936;
+}
+.ementa_desc_important{
+  font-size: 16px;
+  font-weight: bold;
+  color: #707070;
+}
+.ementa_desc{
+  font-size: 16px;
+  color: #707070;
+}
 
 
 /* --- padding --- */

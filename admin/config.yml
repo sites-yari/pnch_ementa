@@ -8,84 +8,84 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 
 
-collections: #====================| POSTS |===================================================|  
-  - name: "data" #|=====================| DATA |====================================================|
-    label: "Data"
-    editor:
-      preview: true
-    files:
+# collections: #====================| POSTS |===================================================|  
+#   - name: "data" #|=====================| DATA |====================================================|
+#     label: "Data"
+#     editor:
+#       preview: true
+#     files:
       #---| INDEX |---
-      - name: "ementa"
-        label: "Ementa"
-        file: "_data/ementa.yml"
-        description: Everything needed for the index
-        fields:
-          - label: "Quem somos" #quem-somos
-            name: quem_somos
-            widget: "object"
-            fields:
-              - { label: "Sobre 1", name: "sobre1", widget: "string" }
-              - { label: "Sobre 2", name: "sobre2", widget: "string" }
-          - label: "Private Equity" #Private-equity
-            name: private_equity
-            widget: "object"
-            fields:
-              - { label: "Descrição", name: "texto_inicial", wdiget: "markdown" }
-              - { label: "Sociedade Gestora", name: "sociedade", widget: "markdown" }
-              - label: "Insignya FRE"
-                name: fre
-                widget: "object"
-                fields:
-                  - { label: "Descrição sobre insignya FRE", name: "texto", widget: "markdown" }
-                  - { label: "Tipo de Operações", name: "tipo_operacoes", widget: "string" }
-                  - { label: "Empresas Alvo", name: "empresas_alvo", widget: "string" }
-                  - { label: "Setores Alvo", name: "setores_alvo", widget: "string" }
-                  - { label: "Estratégia de Investimento", name: "estrategia_invest", widget: "string" }
-                  - { label: "Duração prevista", name: "duracao", widget: "string" }
-                  - { label: "Nota", name: "nota", widget: "string" }
-          - label: "Corporate Finance" #Corporate-finance
-            name: corporate_finance
-            widget: "object"
-            fields:
-              - { label: "Descrição", name: "texto_inicial", widget: "markdown" }
-              - label: "Fusão e Aquisição"
-                name: fusao_aquisicao
-                widget: "object"
-                fields:
-                  - { label: "Descrição sobre Fusão e Aquisição", name: "texto", widget: "markdown" }
-                  - label: "Lista de operações"
-                    name: "lista"
-                    widget: "list" 
-                    fields:
-                      - { label: "paragrafo", name: "text", widget: "string" }
-              - { label: "Capital e Divida", name: "capital_divida", widget: "markdown" }
-              - label: "Assessoria Financeira"
-                name: assessoria_financeira
-                widget: "object"
-                fields:
-                  - { label: "Drescrição sobre Assessoria", name: "texto", widget: "markdown" }
-                  - label: "Lista de assessoria"
-                    name: "lista"
-                    widget: "list" 
-                    fields:
-                      - { label: "Paragrafo", name: "text", widget: "string" }
-          - label: "Contactos" #contactos
-            name: contactos
-            widget: "object"
-            fields:
-              - { label: "Rua", name: "rua", widget: "string" }
-              - { label: "Código Postal", name: "cod_postal", widget: "string" }
-              - { label: "Email", name: "email", widget: "string" }
-              - { label: "Telefone", name: "telefone", widget: "string" }
-          - label: "Background Images" #Imagens de background
-            name: background_images
-            widget: "object"
-            fields:
-              - { label: "Slide Insignya", name: "insignya", widget: "image" }
-              - { label: "Quem somos", name: "quem_somos", widget: "image" }
-              - { label: "Private Equity", name: "private_equity", widget: "image" }
-              - { label: "Corporate Finance", name: "corporate_finance", widget: "image" }
-              - { label: "Contactos", name: "contactos", widget: "image" }
+      # - name: "ementa"
+      #   label: "Ementa"
+      #   file: "_data/ementa.yml"
+      #   description: Everything needed for the index
+      #   fields:
+      #     - label: "Quem somos" #quem-somos
+      #       name: quem_somos
+      #       widget: "object"
+      #       fields:
+      #         - { label: "Sobre 1", name: "sobre1", widget: "string" }
+      #         - { label: "Sobre 2", name: "sobre2", widget: "string" }
+      #     - label: "Private Equity" #Private-equity
+      #       name: private_equity
+      #       widget: "object"
+      #       fields:
+      #         - { label: "Descrição", name: "texto_inicial", wdiget: "markdown" }
+      #         - { label: "Sociedade Gestora", name: "sociedade", widget: "markdown" }
+      #         - label: "Insignya FRE"
+      #           name: fre
+      #           widget: "object"
+      #           fields:
+      #             - { label: "Descrição sobre insignya FRE", name: "texto", widget: "markdown" }
+      #             - { label: "Tipo de Operações", name: "tipo_operacoes", widget: "string" }
+      #             - { label: "Empresas Alvo", name: "empresas_alvo", widget: "string" }
+      #             - { label: "Setores Alvo", name: "setores_alvo", widget: "string" }
+      #             - { label: "Estratégia de Investimento", name: "estrategia_invest", widget: "string" }
+      #             - { label: "Duração prevista", name: "duracao", widget: "string" }
+      #             - { label: "Nota", name: "nota", widget: "string" }
+      #     - label: "Corporate Finance" #Corporate-finance
+      #       name: corporate_finance
+      #       widget: "object"
+      #       fields:
+      #         - { label: "Descrição", name: "texto_inicial", widget: "markdown" }
+      #         - label: "Fusão e Aquisição"
+      #           name: fusao_aquisicao
+      #           widget: "object"
+      #           fields:
+      #             - { label: "Descrição sobre Fusão e Aquisição", name: "texto", widget: "markdown" }
+      #             - label: "Lista de operações"
+      #               name: "lista"
+      #               widget: "list" 
+      #               fields:
+      #                 - { label: "paragrafo", name: "text", widget: "string" }
+      #         - { label: "Capital e Divida", name: "capital_divida", widget: "markdown" }
+      #         - label: "Assessoria Financeira"
+      #           name: assessoria_financeira
+      #           widget: "object"
+      #           fields:
+      #             - { label: "Drescrição sobre Assessoria", name: "texto", widget: "markdown" }
+      #             - label: "Lista de assessoria"
+      #               name: "lista"
+      #               widget: "list" 
+      #               fields:
+      #                 - { label: "Paragrafo", name: "text", widget: "string" }
+      #     - label: "Contactos" #contactos
+      #       name: contactos
+      #       widget: "object"
+      #       fields:
+      #         - { label: "Rua", name: "rua", widget: "string" }
+      #         - { label: "Código Postal", name: "cod_postal", widget: "string" }
+      #         - { label: "Email", name: "email", widget: "string" }
+      #         - { label: "Telefone", name: "telefone", widget: "string" }
+      #     - label: "Background Images" #Imagens de background
+      #       name: background_images
+      #       widget: "object"
+      #       fields:
+      #         - { label: "Slide Insignya", name: "insignya", widget: "image" }
+      #         - { label: "Quem somos", name: "quem_somos", widget: "image" }
+      #         - { label: "Private Equity", name: "private_equity", widget: "image" }
+      #         - { label: "Corporate Finance", name: "corporate_finance", widget: "image" }
+      #         - { label: "Contactos", name: "contactos", widget: "image" }
       
 
 
