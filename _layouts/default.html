@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+    <body>
+        <div class="pusher">
+            <div class="">
+                {% include header.html %}
+            </div>
+            <div class="">
+                {{ content }}
+            </div>
+            <div class="">
+                {% include footer.html %}
+            </div> 
+        </div> 
+        
+        <!-- scripts -->
+        <script>
+            (function() {
+                
+                'use strict';
+        
+            // Feature Test
+            if ( 'querySelector' in document && 'addEventListener' in window && Array.prototype.forEach ) {
+        
+                // Function to animate the scroll
+                var smoothScroll = function (anchor, duration) {
+        
+                    // Calculate how far and how fast to scroll
+                    var startLocation = window.pageYOffset;
+                    var endLocation = anchor.offsetTop;
+                    var distance = endLocation - startLocation;
+                    var increments = distance/(duration/16);
+                    var stopAnimation;
+        
+                    // Scroll the page by an increment, and check if it's time to stop
+                    var animateScroll = function () {
+                        window.scrollBy(0, increments);
+                        stopAnimation();
+                    };
+        
+                    // If scrolling down
+                    if ( increments >= 0 ) {
+                        // Stop animation when you reach the anchor OR the bottom of the page
+                        stopAnimation = function () {
+                            var travelled = window.pageYOffset;
+                            if ( (travelled >= (endLocation - increments)) || ((window.innerHeight + travelled) >= document.body.offsetHeight) ) {
+                                clearInterval(runAnimation);
+                            }
+                        };
+                    }
+                    // If scrolling up
+                    else {
+                        // Stop animation when you reach the anchor OR the top of the page
+                        stopAnimation = function () {
+                            var travelled = window.pageYOffset;
+                            if ( travelled <= (endLocation || 0) ) {
+                                clearInterval(runAnimation);
+                            }
+                        };
+                    }
+        
+                    // Loop the animation function
+                    var runAnimation = setInterval(animateScroll, 16);
+                
+                };
+        
+                // Define smooth scroll links
+                var scrollToggle = document.querySelectorAll('.scroll');
+        
+                // For each smooth scroll link
+                [].forEach.call(scrollToggle, function (toggle) {
+        
+                    // When the smooth scroll link is clicked
+                    toggle.addEventListener('click', function(e) {
+        
+                        // Prevent the default link behavior
+                        e.preventDefault();
+        
+                        // Get anchor link and calculate distance from the top
+                        var dataID = toggle.getAttribute('href');
+                        var dataTarget = document.querySelector(dataID);
+                        var dataSpeed = toggle.getAttribute('data-speed');
+        
+                        // If the anchor exists
+                        if (dataTarget) {
+                            // Scroll to the anchor
+                            smoothScroll(dataTarget, dataSpeed || 500);
+                        }
+        
+                    }, false);
+        
+                });
+        
+            }
+        
+            })();
+        </script>
+        <script type="text/Javascript">
+            function sub(a,b)
+            {
+                var c=document.getElementById(a);
+                c.src=b;
+            }
+        </script>
+
+        <script>
+            var flex_slider_animation = "slide",
+                flex_slider_direction = "horizontal",
+                flex_slider_auto_play = "",
+                flex_slider_slideshowspeed = "1500",
+                flex_slider_controlnav = "",
+                testimonials_auto_play = "",
+                superslider_play = "",
+                superslider_pagination = "true",
+                superslider_animation = "slide";
+        </script>
+
+        <script>
+            jQuery(document).ready(function($) {
+                $(".nav-links li a:contains('Home') , .nav-links li a:contains('home')").parent().addClass('nav-active');
+                $(window).load(function () {
+                if (Modernizr.history){
+                    history.replaceState('', document.title, window.location.pathname);
+                }
+                });
+            });
+        </script>
+
+        <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyD9prCXGJT0k3bdrhRRJnmnxXuqGID-0Ds&callback=initMap'></script>
+        <script src="assets/sites/insig/theme/javascripts/theme/zoo/plugins/zoo-shortcodes-plugins51525786.js" type="text/javascript" ></script>
+        <script src="assets/sites/insig/theme/javascripts/theme/zoo/plugins/zoo-shortcodes-script51523c34.js" type="text/javascript" ></script>
+
+        <script type='text/javascript'>
+            var _wpcf7 = {"loaderUrl":"images\/ajax-loader.gif","sending":"Sending ..."};
+        </script>
+
+        <script src="assets/sites/insig/theme/javascripts/theme/zoo/plugins/plugins4974d5d4.js" type="text/javascript" ></script>
+        <script src="assets/sites/insig/theme/javascripts/theme/Zoo/script49749c43.js" type="text/javascript" ></script>
+            
+    </body>
+</html>
