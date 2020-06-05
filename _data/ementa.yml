@@ -1,71 +1,46 @@
-quem_somos: 
-  sobre1: Somos uma equipa experiente e dinâmica que investe em empresas com partilha de risco e valor.
-  sobre2: Independência, Experiência, Excelência.
+
+test: got some text here
+
+en:
+  test: got some text here 2
+  ementa_main_context: 
+    test: got some text here 3
+    title: Traditional Portuguese cuisine with a twists
+    desc: Be sure to take up the chef's delicious suggestions Monday to Friday, let yourself be carried away by our menu or savor our snacks on any day of the week... <br>Our menu is shown to be fresh and varied.
+  menu: 
+    title: Enjoy our chef's suggestions from Monday to Friday and be tempted by new and unexpected offers every week.
+    desc: Pick what tempts you the most between the Sharing or the Tasting menu. <br>Menu Sharing(9€ per person) 2 items + 1 dessert or fruit Tasting Menu (13€ per person) 3 items + 1 dessert or fruit
+  la_carte:
+    starter: Bread, butter, marinated olive and curd cheese seasoned with herbs
+    appetizer: Cream of vegetables<br>"Alheira" (typical Portuguese sausage) filled with cheese and bell pepper sauce<br>Salted cod in Brás style
+    fish: Black rice with squid and prawns<br>Hake au gratin with homemade mayonnaise, served with spinach and mashed potato<br>Salted cod in Braga's style
+    meat: Filled chicken with "farinheira", served with vegetables, mashed potato and azores cheese sauce<br>Sirloin steak with grilled vegetables and rosti potatos<br>Slow cooked veal with mushrooms and crushed sweet potato
+    vegetarian: Pasta with chick peas and mushrooms
+    childrens_menu: Breaded chicken with rice and french fries or mixed salad<br>Hake fillets with rice and french fries or mixed salad
+    desert: Sliced fruit<br>Rosemary cream with almond and orange curd<br>Abade de Priscos pudding with almond crumble and lemon curd<br>Marinated pineapple and curd cheese cheesecake dusted with caramel and pink pepper powder
+    extra_info: extra info content...
+  snacks:
+    title: Leisurely snacks enjoyed any time of day
+    desc: In the restaurant or in the terrace, either inside while you hear the rain or outside so that you can feel the warm sun, nothing is as comforting as relaxing while you eat something... and toast to the truly important things in life.<br><br>Cold sandwiches<br>Hot sandwiches<br>Boards of cheese and Portuguese pork sausages<br>Crepes
 
 
 
-private_equity:
-    texto_inicial: Insignya Capital Partners investe em negócios e projectos de cariz industrial em qualquer sector de actividade. Privilegiámos oportunidades de investimento superiores a €5 milhões em co-investimento com equipas de gestão.
-      <br><br>
-      Através do acompanhamento constante e intervenção ativa na gestão das empresas participadas, procurámos garantir as melhores práticas de governo corporativo e privilegiar as relações de confiança a longo prazo.
-      <br><br>
-      A equipa de gestão da sociedade-gestora conta com profissionais com vasta experiência em gestão de empresas, corporate finance e reestruturação empresarial aliada a um grande conhecimento do tecido empresarial português.
-    sociedade: A Insignya Capital Partners - Sociedade de Capital de Risco, S.A. disponibilizará brevemente este conteúdo.
-    fre:
-      texto: A Insignya Capital Partners - Sociedade de Capital de Risco está a angariar investidores qualificados para o fundo de capital de risco INSIGNYA FRE, com as seguintes características;
-      tipo_operacoes: Reestruturação / Turnaround
-      empresas_alvo: Empresas com volume de negócios superior a € 10 milhões
-      setores_alvo: Indústria
-      estrategia_invest: Investimento em empresas com necessidade de reestruturação financeira junto da banca em Portugal e com potencial de melhorias operacionais. Reestruturação financeira mediante a recapitalização pela conversão da dívida em capital; Adequação da estrutura de capital ao ciclo de investimento e de negócio.
-      duracao: 15 Anos
-      nota: O Fundo ainda não se encontra constituído nem registado na CMVM.
-
-
-
-corporate_finance:
-    texto_inicial: A Insignya Capital Partners presta um serviço global de M&A, corporate finance e reestruturação empresarial. A Insignya acompanha as necessidades sentidas pelas empresas continuando a apostar em relações de proximidade que sempre caracterizaram a sua equipa.
-      <br><br>
-      Uma vasta experiência local e internacional permite-nos compreender e trabalhar os objectivos estratégicos dos nossos clientes. Este conhecimento permite-nos encontrar a cada momento os melhores parceiros estratégicos e financeiros, bem como, encurtar o período de negociação com potenciais investidores.
-      <br><br>
-      Fruto das inúmeras relações de longo prazo estabelecidas com as diversas partes intervenientes nos processos de M&A, a Insignya conhece as estratégias de investimento/desinvestimento, o momentum e as restrições dos principais players presentes no mercado.
-    fusao_aquisicao: 
-      texto: As estratégias de crescimento das empresas implicam a assumpção de riscos. O aconselhamento especializado da Insignya permitir minorar os riscos associados às operações de fusão, aquisição e desinvestimento. 
-        <br><br>
-        Os serviços disponibilizados pela Insignya englobam todas as etapas das transações, desde a identificação de potenciais targets/investidores, preparação da documentação de suporte, avaliação, negociação, coordenação do processo de due diligence e closing das operações.
-        <br><br>
-        Os profissionais da Insignya possuem vasta experiência neste tipo de transações, tendo liderado ou participado ativamente em operações de relevo.
-        <br><br>
-        A equipa de Corporate Finance analisa, estrutura e executa, entre outras, as seguintes operações;
-      lista:
-        - text: M&A, incluindo venda, aquisição, desinvestimento, fusão, joint-venture
-        - text: Reestruturação empresarial, recapitalização, spin-off,
-        - text: LBO, MBO, MBI.
-    capital_divida: Num mercado cada vez mais complexo e dinâmico, a Insignya disponibiliza aconselhamento estratégico e financeiro na escolha dos instrumentos financeiros adequados às necessidades das empresas, promovendo a negociação com os investidores dos mercados de capitais. 
-      <br><br>
-      Fiéis aos nossos valores de independência e excelência, garantimos a obtenção de soluções adequadas, flexíveis e maximizadoras do valor das empresas, promovendo operações de private placement, financiamentos estruturados, reestruturação financeira e outros instrumentos financeiros.
-    assessoria_financeira:
-      texto: Proporcionamos aos nossos clientes aconselhamento objectivo e independente sobre estratégias financeiras e empresariais.
-        <br><br>
-        Os nossos serviços incluem;
-      lista: 
-        - text: Avaliação de negócios e empresas
-        - text: Fairness opinions
-        - text: Reorganização de participações sociais
-        - text: Assessoria financeira em estrutura de capitais e estratégia empresarial
-
-
-
-contactos:
-  rua: Rua Eugénio de Castro, 352, 2º andar - Sala 28
-  cod_postal: 4100-225 Porto
-  email: corporate@insignyacapital.com
-  telefone: T (+351)223 256 160
-
-
-
-background_images:
-  insignya: assets/sites/insig/theme/images/content/parallax1e8e1.jpg
-  quem_somos: assets/sites/insig/theme/images/content/parallax00319.jpg
-  private_equity: assets/sites/insig/theme/images/content/parallax25e7f.jpg
-  corporate_finance: assets/sites/insig/theme/images/content/parallax3b97f.jpg
-  contactos: assets/sites/insig/theme/images/content/parallax41883.jpg
+pt:
+  ementa_main_context: 
+    title: Cozinha Portuguese mas com variedade
+    desc: lorem ipsum ...
+  menu: 
+    title: menu title content
+    desc: lorem ipsum ...
+  la_carte:
+    starter: content starter
+    appetizer: content appetizer
+    fish: content fish
+    meat: content meat
+    vegetarian: content vegetarian
+    childrens_menu: content childrens_menu
+    desert: content desert
+    extra_info: extra info content...
+  snacks:
+    title: snacks title
+    desc: snaks desc

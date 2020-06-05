@@ -1,0 +1,98 @@
+
+publish_mode: editorial_workflow
+media_folder: "assets/uploads" # Media files will be stored in the repo under uploads/versions
+
+backend:
+  name: git-gateway
+  repo: https://github.com/sites-yari/pnch_ementa
+  branch: master # Branch to update (optional; defaults to master)
+
+
+collections: #====================| POSTS |===================================================|  
+  - name: "data" #|=====================| DATA |====================================================|
+    label: "Data"
+    editor:
+      preview: true
+    files:
+      # ---| INDEX |---
+      - name: "ementa"
+        label: "Ementa"
+        file: "_data/ementa.yml"
+        description: Everything needed for the index
+        fields:
+          - { label: "test", name: "test", widget: "string" }
+          - label: "Ingles" 
+            name: en
+            widget: "object"
+            fields:
+              - { label: "test", name: "test", widget: "string" }
+              - label: "Informação principal"
+                name: ementa_main_context
+                widget: "object"
+                fields:
+                  - { label: "Titulo", name: "title", widget: "string" }
+                  - { label: "Descrição", name: "desc", widget: "markdown" }
+              # - label: "Menu"
+              #   name: menu
+              #   widget: object
+              #   fields:
+              #     - { label: "Titulo", name: "title", widget: "string" }
+              #     - { label: "Descrição", name: "desc", widget: "markdown" }
+              # - label: "A la carte"
+              #   name: la_carte
+              #   widget: object
+              #   fields:
+              #     - { label: "Iniciar", name: "starter", widget: "markdown" }
+              #     - { label: "Apiritivo", name: "appetizer", widget: "markdown" }
+              #     - { label: "Peixe", name: "fish", widget: "markdown" }
+              #     - { label: "Carne", name: "meat", widget: "markdown" }
+              #     - { label: "Vegetariano", name: "vegetarian", widget: "markdown" }
+              #     - { label: "Menu de Crianças", name: "childrens_menu", widget: "markdown" }
+              #     - { label: "Sobremesa", name: "desert", widget: "markdown" }
+              #     - { label: "Informação Extra", name: "extra_info", widget: "markdown" }
+              # - label: "Snacks"
+              #   name: snacks
+              #   widget: object
+              #   fields:
+              #     - { label: "Titulo", name: "title", widget: "string" }
+              #     - { label: "Descrição", name: "desc", widget: "markdown" }
+          # - label: "Portugues" 
+          #   name: pt
+          #   widget: "object"
+          #   fields:
+          #     - label: "Informação principal"
+          #       name: ementa_main_context
+          #       widget: object
+          #       fields:
+          #         - { label: "Titulo", name: "title", widget: "string" }
+          #         - { label: "Descrição", name: "desc", widget: "markdown" }
+          #     - label: "Menu"
+          #       name: menu
+          #       widget: object
+          #       fields:
+          #         - { label: "Titulo", name: "title", widget: "string" }
+          #         - { label: "Descrição", name: "desc", widget: "markdown" }
+          #     - label: "A la carte"
+          #       name: la_carte
+          #       widget: object
+          #       fields:
+          #         - { label: "Iniciar", name: "starter", widget: "markdown" }
+          #         - { label: "Apiritivo", name: "appetizer", widget: "markdown" }
+          #         - { label: "Peixe", name: "fish", widget: "markdown" }
+          #         - { label: "Carne", name: "meat", widget: "markdown" }
+          #         - { label: "Vegetariano", name: "vegetarian", widget: "markdown" }
+          #         - { label: "Menu de Crianças", name: "childrens_menu", widget: "markdown" }
+          #         - { label: "Sobremesa", name: "desert", widget: "markdown" }
+          #         - { label: "Informação Extra", name: "extra_info", widget: "markdown" }
+          #     - label: "Snacks"
+          #       name: snacks
+          #       widget: object
+          #       fields:
+          #         - { label: "Titulo", name: "title", widget: "string" }
+          #         - { label: "Descrição", name: "desc", widget: "markdown" }
+          
+      
+
+
+
+
