@@ -6,6 +6,11 @@ header a:link{ color: white; }
 header a:visited{ color: white; }
 header a:hover{ color: white; }
 header a:active{ color: white; }
+.header-tab_color .separate{ 
+  text-align: left; 
+  padding: 0px;
+  /* background-color: #53554D; */
+}
 .header-tab_color{ 
   background-color: #9B9936; 
   color: white;
