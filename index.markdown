@@ -7,12 +7,12 @@ class: index
 <body>
   <!-- Main content -->
   <div class="pd-30">
-    <div class="main_info col-md-12 bg_lgrey">
+    <div class="main_info col-md-12 ">
       <div class="text-center">
         <p class="ementa_title">{{site.data.ementa.en.ementa_main_context.title}}</p>
       </div>
       <div>
-        <p class="ementa_desc">{{site.data.ementa.en.ementa_main_context.desc}}</p>
+        <p class="ementa_desc big_screen_organize">{{site.data.ementa.en.ementa_main_context.desc}}</p>
       </div>
     </div>
   
@@ -21,7 +21,7 @@ class: index
       <div class="main_divition_content"></div>
     </div>
     <div class="menu_content pd-10">
-      <div class="bg_lgrey">
+      <div class="big_screen_organize">
         <p class="ementa_title ementa_content">Menu</p>
         <p class="ementa_title">{{site.data.ementa.en.menu.title}}</p>
         <p class="ementa_desc">{{site.data.ementa.en.menu.desc}}</p>
@@ -33,7 +33,7 @@ class: index
       <div class="divition_content"></div>
     </div>
     <div class="la_carte_content pd-10">
-      <div class="bg_lgrey">
+      <div class="big_screen_organize">
         <p class="ementa_title ementa_content">A la Carte</p>
         <!-- starter -->
         <div>
@@ -82,7 +82,7 @@ class: index
       <div class="divition_content"></div>
     </div>  
     <div class="snacks_content pd-10">
-      <div class="bg_lgrey">
+      <div class="big_screen_organize">
         <p class="ementa_title ementa_content">Snacks</p>
         <p class="ementa_title">{{site.data.ementa.en.snacks.title}}</p>
         <p class="ementa_desc">{{site.data.ementa.en.snacks.desc}}</p>
