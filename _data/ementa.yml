@@ -41,3 +41,44 @@ pt:
   snacks:
     title: snacks title
     desc: snaks desc
+
+
+es:
+  ementa_main_context: 
+    title: Cozinha em espanhol
+    desc: lorem ipsum ...
+  menu: 
+    title: menu title content
+    desc: lorem ipsum ...
+  la_carte:
+    starter: content starter
+    appetizer: content appetizer
+    fish: content fish
+    meat: content meat
+    vegetarian: content vegetarian
+    childrens_menu: content childrens_menu
+    desert: content desert
+    extra_info: extra info content...
+  snacks:
+    title: snacks title
+    desc: snaks desc
+
+fr:
+  ementa_main_context: 
+    title: Cozinha em Frances
+    desc: lorem ipsum ...
+  menu: 
+    title: menu title content
+    desc: lorem ipsum ...
+  la_carte:
+    starter: content starter
+    appetizer: content appetizer
+    fish: content fish
+    meat: content meat
+    vegetarian: content vegetarian
+    childrens_menu: content childrens_menu
+    desert: content desert
+    extra_info: extra info content...
+  snacks:
+    title: snacks title
+    desc: snaks desc
