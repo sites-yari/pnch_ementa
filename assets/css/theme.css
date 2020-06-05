@@ -11,6 +11,17 @@ header a:active{ color: white; }
   color: white;
 }
 
+@media only screen and (max-width: 992px) {
+  .col-0-invisible{
+    opacity: 0 ;
+    height: 0;
+  }
+}
+@media(min-width: 577px) {
+  .big_screen_organize{ text-align: center !important; }
+}
+
+.big_screen_organize{ text-align: left; }
 .bg_lgrey{background-color: #FFF;}
 .content_center{ align-content: center; }
 .invisible_content{ opacity: 0; }
