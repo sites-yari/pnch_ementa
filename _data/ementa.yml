@@ -2,83 +2,1109 @@
 
 en:
   ementa_main_context: 
-    title: Traditional Portuguese cuisine with a twists
-    desc: Be sure to take up the chef's delicious suggestions Monday to Friday, let yourself be carried away by our menu or savor our snacks on any day of the week... <br>Our menu is shown to be fresh and varied.
+    title: Portuguese Traditional cuisine with a twists
+    desc: Be sure to take up the chef's delicious suggestions Monday to Friday, let yourself be carried away by our menu or savor our snacks on any day of the week...
   menu: 
-    title: Enjoy our chef's suggestions from Monday to Friday and be tempted by new and unexpected offers every week.
-    desc: Pick what tempts you the most between the Sharing or the Tasting menu. <br>Menu Sharing(9€ per person) 2 items + 1 dessert or fruit Tasting Menu (13€ per person) 3 items + 1 dessert or fruit
+    desc: ""
   la_carte:
-    starter: Bread, butter, marinated olive and curd cheese seasoned with herbs
-    appetizer: Cream of vegetables<br>"Alheira" (typical Portuguese sausage) filled with cheese and bell pepper sauce<br>Salted cod in Brás style
-    fish: Black rice with squid and prawns<br>Hake au gratin with homemade mayonnaise, served with spinach and mashed potato<br>Salted cod in Braga's style
-    meat: Filled chicken with "farinheira", served with vegetables, mashed potato and azores cheese sauce<br>Sirloin steak with grilled vegetables and rosti potatos<br>Slow cooked veal with mushrooms and crushed sweet potato
-    vegetarian: Pasta with chick peas and mushrooms
-    childrens_menu: Breaded chicken with rice and french fries or mixed salad<br>Hake fillets with rice and french fries or mixed salad
-    desert: Sliced fruit<br>Rosemary cream with almond and orange curd<br>Abade de Priscos pudding with almond crumble and lemon curd<br>Marinated pineapple and curd cheese cheesecake dusted with caramel and pink pepper powder
-    extra_info: extra info content...
+    starter: 
+      title: Couvert
+      desc: Bread, butter, marinated olive and curd cheese seasoned with herbs
+      price: 2,00€
+    amuse_bouche: 
+      title: Amuse-Bouche
+      desc1: Smoked ham with melon
+      desc2: Flying Squid with green sauce
+      desc3: Greyish bean with tuna
+      price1: 2,00€
+      price2: 2,00€
+      price3: 2,00€
+    appetizer: 
+      title: Hors - D’oeuvres
+      desc1: Cream of vegetables
+      desc2: Salted cod brandade with peppers sauce and stewed red onions
+      desc3: Croquette of the house with mashed potatos
+      price1: 3,50€
+      price2: 4,50€
+      price3: 6,50€
+    fish: 
+      title: Fish
+      desc1: Spaghetti with prawns
+      desc2: Black rice with squid and prawns
+      desc3: Salted Cod in Braga´s style
+      price1: 9,50€
+      price2: 14,00€
+      price3: 15,00€
+    meat: 
+      title: Meat
+      desc1: Tagliatelle with shedded short rib
+      desc2: Grilled steak with potato gratin and sautéed vegetables
+      desc3: Slow cooked veal with mushrooms sauce and crushed sweet potato
+      price1: 10,50€
+      price2: 16,00€
+      price3: 16,00€
+    vegetarian:  
+      title: Vegetrarian
+      desc1: Breaded eggplant with mashed potato and tomato sauce
+      desc2: Macaroni with chick peas and mushrooms
+      desc3: ""
+      price1: 6,00€
+      price2: 6,75€
+      price3: ""
+    childrens_menu: 
+      title: Children’s Menu
+      desc1: Breaded chicken
+      desc2: Whiting fillets
+      desc3: Served with rice, fries, salad
+      price1: 5,00€
+      price2: 5,00€
+      price3: ""
+    desert: 
+      title: Dessert
+      desc1: Mix sliced fruits (3 different types)
+      desc2: Cream with rosemary, almond and orange curd
+      desc3: Abade de Priscos pudding with almond crumble and lemon curd
+      price1: 3,00€
+      price2: 3,50€
+      price3: 4,00€
   snacks:
-    title: Leisurely snacks enjoyed any time of day
-    desc: In the restaurant or in the terrace, either inside while you hear the rain or outside so that you can feel the warm sun, nothing is as comforting as relaxing while you eat something... and toast to the truly important things in life.<br><br>Cold sandwiches<br>Hot sandwiches<br>Boards of cheese and Portuguese pork sausages<br>Crepes
+    title: Snacks
+    cold_sandwich: 
+      title: Cold Sandwiches
+      desc1: Bread and butter
+      desc2: Sandwich with one ingredient
+      desc3: Sandwich with two ingredients
+      price1: 0,75€
+      price2: 2,00€
+      price3: 2,50€
+    hot_sandwich: 
+      title: Hot Sandwiches
+      desc1: 1/2 Toast
+      desc2: Toast
+      desc3: Toast with one ingredient (cheese or ham)
+      desc4: Toast with two ingredient (cheese or ham)
+      desc5: Chicken sandwich
+      desc6: Roast beef sandwich
+      price1: 1,00€
+      price2: 2,00€
+      price3: 2,50€
+      price4: 3,00€
+      price5: 5,50€
+      price6: 7,50€
+    platters: 
+      title: Platters
+      desc1: Platter of cheeses (sheep’s, goat’s and cow’s)
+      desc2: Platter of Portuguese sausages (paio sausage, cured ham and salpicão sausage)
+      desc3: Mixed platter (goat’s and sheep’s cheese, cured ham and salpicão sausage)
+      price1: 9,50€
+      price2: 12,00€
+      price3: 14,00€
+    ice_cream: 
+      title: Ice Cream
+      desc1: 1 scoop + whipped cream (strawberry, chocolate, vanilla, caramel)
+      desc2: "Plain bowl: 2 scoops + 1 whipped cream"
+      desc3: "My bowl: 3 scoops + whipped cream + 1 topping"
+      desc4: Extra scoop (strawberry, chocolate, vanilla, caramel)
+      desc5: Extra filling
+      price1: 1,50€
+      price2: 2,50€
+      price3: 4,50€
+      price4: 1,00€
+      price5: 0,50€
+    pudding: 
+      title: Abade Priscos Pudding
+      desc1: Abade de Priscos (take away, 25 g)
+      price1: 2,50€
+  beverage:
+    title: Beverage
+    coffees: 
+      title: Coffees
+      desc1: Carioca” (weak) coffee
+      desc2: Pingo (espresso and milk)
+      desc3: Espresso coffee
+      desc4: Decaffeinated coffee
+      desc5: Coffee with cream
+      desc6: Double espresso coffee
+      desc7: Cappuccino
+      desc8: Espresso coffee with chocolat 
+      desc9: Glass of milk
+      desc10: Coffee and milk
+      desc11: Latte Machiatto
+      desc12: Glass of milk with chocolate
+      desc13: Lemon carioca
+      desc14: Tea (black, white, green)
+      desc15: Irish Coffee
+      price1: 1,00€
+      price2: 1,00€
+      price3: 1,00€
+      price4: 1,00€
+      price5: 1,30€
+      price6: 1,50€
+      price7: 1,50€
+      price8: 2,50€
+      price9: 1,20€
+      price10: 1,30€
+      price11: 1,50€
+      price12: 2,50€
+      price13: 1,00€
+      price14: 2,00€
+      price15: 5,00€
+    shakes: 
+      title: Shakes
+      desc1: (banana, apple, honey, protein and milk)
+      price: 5,00€
+    non_alcohol:
+      title: Non Alcohol
+      desc1: Non-carbonated water (50cl)
+      desc2: Non-carbonated water (1L)
+      desc3: Carbonated water (25cl)
+      desc4: Carbonated water (75cl)
+      desc5: Lemon - or red fruits- flavored Pedras water (25cl)
+      desc6: Schweppes tonic water (25cl)
+      desc7: Schweppes Premium tonic water—Pink Pepper, Lime, Hibiscus (20cl)
+      desc8: Soft drinks — Ginger Ale, Cola-Cola, 7Up, Fanta, Ice Tea, Guarana (33cl)
+      desc9: Freshly squeezed orange or lemon juice (33cl)
+      desc10: Fruit nectar—tutti-frutti, pear, peach, pineapple (20cl)
+      desc11: Energy drinks (35cl)
+      price1: 1,30€
+      price2: 1,50€
+      price3: 1,30€
+      price4: 2,00€
+      price5: 1,80€
+      price6: 1,80€
+      price7: 4,00€
+      price8: 1,50€
+      price9: 3,00€
+      price10: 1,50€
+      price11: 4,00€
+    alcohol:
+      title: Alcohol
+      beers: 
+        title: Beers
+        desc1: Mini Portuguese beer
+        desc2: Portuguese beer, bottle
+        desc3: Portuguese stout beer, bottle 
+        desc4: Non-alcohol Portuguese beer, bottle 
+        desc5: Mixed beer—Panaché, Tango, Diesel 
+        desc6: Mixed beer—Martini, Favaios 
+        desc7: Imported beer—Carlsberg 
+        desc8: Apple cider—Somersby 
+        price1: 1,30€
+        price2: 1,80€
+        price3: 1,80€
+        price4: 1,80€
+        price5: 1,50€
+        price6: 2,00€
+        price7: 2,20€
+        price8: 3,50€
+      sangria: 
+        title: Sangria
+        desc1: Sangria with white/red wine
+        desc2: Sangria with rosé wine and red fruits 
+        desc3: Sangria with sparkling wine and liqueur
+        price1: 15,00€
+        price2: 20,00€
+        price3: 25,00€
+      aperitifs: 
+        title: Aperitifs
+        desc1: Vermouths—Martini Rosso, Bianco, Dry 
+        desc2: Porto tawny tonic
+        desc3: Ricard (6cl)  
+        desc4: Campari (6cl) 
+        desc5: Asperol (6cl) 
+        price1: 4,00€
+        price2: 5,00€
+        price3: 5,00€
+        price4: 5,00€
+        price5: 5,00€
+      wines: 
+        title: Fortified Wines
+        desc1: Moscatel Setúbal (6cl) 
+        desc2: Madeira (6cl) 
+        desc3: Dry white (6cl) 
+        desc4: Extra Dry white (6cl) 
+        desc5: Porto Tawny (6cl) 
+        desc6: Porto Ruby (6cl) 
+        desc7: Porto Tawny Reverva (6cl) 
+        desc8: LBV (6cl) 
+        desc9: Vintage (6cl) 
+        desc10: 10-year Port (6cl) 
+        desc11: 20-year Port (6cl) 
+        price1: 4,50€
+        price2: 4,50€
+        price3: 4,50€
+        price4: 4,50€
+        price5: 4,50€
+        price6: 4,50€
+        price7: 5,50€
+        price8: 6,50€
+        price9: 7,50€
+        price10: 8,00€
+        price11: 12,00€
+      liqueurs: 
+        title: Liqueurs
+        desc1: Licor Beirão (6cl) 
+        desc2: Licor de Ginja (6cl) 
+        desc3: Amêndoa Amarga (6cl) 
+        desc4: Licor de Café (6cl) 
+        desc5: Bailey´s (6cl) 
+        desc6: Safari (6cl) 
+        desc7: Frangélico (6cl) 
+        desc8: Grand Marnier (6cl) 
+        desc9: Drambuie (6cl) 
+        price1: 4,00€
+        price2: 4,00€
+        price3: 4,00€
+        price4: 4,00€
+        price5: 5,00€
+        price6: 6,00€
+        price7: 6,00€
+        price8: 7,00€
+        price9: 8,00€
+      gin: 
+        title: GIN
+        desc1: Gordon´s (6cl)
+        desc2: Bombay Original (6cl)
+        desc3: Gordon´s Pink (6cl)
+        desc4: Bombay Sapphire (6cl)
+        desc5: Bulldog (6cl)
+        desc6: Sharish (6cl)
+        desc7: Hendrick´s (6cl)
+        desc8: Mare (6cl)
+        desc9: G´Vine Floraison (6cl)
+        desc10: G´Vine Nouaison (6cl)
+        desc11: Monkey 47 (6cl)
+        desc12: "Inclui água tónica e arómaticos (Includes tonic water and aromatic ingredients)"
+        price1: 5,50€
+        price2: 5,50€
+        price3: 6,50€
+        price4: 6,50€
+        price5: 8,00€
+        price6: 9,50€
+        price7: 11,00€
+        price8: 13,00€
+        price9: 14,00€
+        price10: 15,00€
+        price11: 16,00€
+        price12: ""
+      vodka: 
+        title: Vodka / Rum /Tequilla
+        desc1: Vodka Eristoff (6cl)
+        desc2: Vodka Eristoff Black (6cl)
+        desc3: Vodka Absolut (6cl)
+        desc4: Rum com coco Malibu (6cl)
+        desc5: Rum Carta Blanca Bacardi (6cl)
+        desc6: Rum Anejo Barceló (6cl)
+        desc7: Rum 7 anos Havana (6cl)
+        desc8: Tequilla Sierra (6cl)
+        price1: 5,00€
+        price2: 5,50€
+        price3: 6,00€
+        price4: 5,00€
+        price5: 6,00€
+        price6: 6,00€
+        price7: 8,00€
+        price8: 5,00€
+      whisky_new: 
+        title: Young Whisky
+        desc1: Cutty Sark (6cl)
+        desc2: J&B (6cl)
+        desc3: William Lawson´s (6cl)
+        price1: 4,00€
+        price2: 4,50€
+        price3: 4,50€
+      whisky_old: 
+        title: Aged Whisky 
+        desc1: Logan 12 anos (6cl)
+        desc2: Ballantine´s 12 anos (6cl)
+        desc3: J&B 15 anos (6cl)
+        desc4: Old Parr 12 anos (6cl)
+        desc5: Swing (6cl)
+        price1: 6,00€
+        price2: 7,00€
+        price3: 10,00€
+        price4: 15,00€
+        price5: 22,00€
+      malt: 
+        title: Malt
+        desc1: Cardhu 12 anos (6 cl)
+        price1: 10,00€
+      irish: 
+        title: Irish
+        desc1: Bushmills (6 cl) 
+        desc2: Jameson (6 cl) 
+        price1: 5,00€
+        price2: 6,50€
+      american: 
+        title: American
+        desc1: Jim Bean (6 cl) 
+        desc2: Jack Daniel´s (6 cl) 
+        price1: 5,00€
+        price2: 6,50€
+      aguardente: 
+        title: Aguardente / Brandy / Cognac / Armagnac
+        desc1: Aguardente Bagaceira Aldeia Velha (6 cl) 
+        desc2: Aguardente Velha Aliança Velha (6 cl)
+        desc3: Aguardente Velha Reserva CRF (6 cl)
+        desc4: Cane Sugar Spirits Velho Barreiro (6 cl) 	
+        desc5: Brandy Croft (6 cl) 
+        desc6: Brandy Macieira (6 cl) 	
+        desc7: Cognac Martel V.S. (6 cl)
+        desc8: Cognac Remy Martin V.S.O.P. (6 cl) 
+        price1: 5,00€
+        price2: 5,00€
+        price3: 5,00€
+        price4: 5,00€
+        price5: 5,00€
+        price6: 5,00€
+        price7: 8,00€
+        price8: 10,00€
+      cocktails_alcohol: 
+        title: Alcohol Cocktails
+        desc1: Khir Royal (6 cl) 
+        desc2: Caipirinha, Caipirosca, Caipirão, Caipiríssima (6 cl) 
+        desc3: Black Russian (6 cl) 
+        desc4: Wiskey Sour (6 cl) 	
+        desc5: Dry Martini (6 cl)
+        desc6: Tom Collins (6 cl)
+        desc7: Mojito (6 cl) 
+        desc8: Daiquiri (6 cl) 	
+        desc9: Piña Colada (6 cl) 	
+        price1: 5,00€
+        price2: 6,00€
+        price3: 6,00€
+        price4: 6,00€
+        price5: 6,00€
+        price6: 6,00€
+        price7: 6,50€
+        price8: 6,50€
+        price9: 7,00€
+      cocktails_non_alcohol: 
+        title: Non Alcohol Cocktails
+        desc1: Bela Pêra (6 cl) 
+        desc2: Cinderela (6 cl)	
+        price1: 5,00€
+        price2: 5,00€
+  vinhos:
+    title: Wines
+    vinhos_verde:
+      title: Vinho verde 
+      white_wine: 
+        title: White Table Wine
+        desc1: Vinha dos 9 (75 cl) 
+        desc2: Vinha dos 9 (glass 20 cl) 
+        desc3: Anselmo Mendes 3 Rios Escolha (75 cl)
+        desc4: Soalheiro Alvarinho (75 cl) 
+        desc5: Soalheiro Alvarinho (glass 20 cl) 
+        desc6: Soalheiro Primeiras Vinhas (75 cl) 
+        price1: 10,00€
+        price2: 2,00€
+        price3: 13,50€
+        price4: 18,50€
+        price5: 4,00€
+        price6: 29,00€
+      tinto: 
+        title: Red Table Wine
+        desc1: Ponte da Barca (75 cl) 
+        price1: 10,00€
+    dao:
+      title: Dao
+      white_wine: 
+        title: White Table Wine
+        desc1: Vinha Paz (75 cl) 	
+        price1: 14,00€
+      tinto: 
+        title: Red Table Wine
+        desc1: Porta dos Cavaleiros Reserva (75 cl) 	
+        desc2: Vinha Paz (75 cl)	
+        price1: 18,00€
+        price2: 18,00€
+    douro:
+      title: Douro
+      white_wine: 
+        title: White Table Wine
+        desc1: Piorro Colheita (75 cl) 
+        desc2: Piorro Colheita (glass 20 cl) 
+        desc3: Castello D´Alba Vinhas Velhas (75 cl) 
+        desc4: Piorro Vinhas Velhas (75 cl)
+        desc5: Vallado Reserva (75 cl) 
+        price1: 14,00€
+        price2: 3,00€
+        price3: 15,00€
+        price4: 28,00€
+        price5: 31,00€
+      tinto: 
+        title: Red Table Wine
+        desc1: Piorro Colheita (75 cl) 
+        desc2: Piorro Colheita (glass 20 cl) 
+        desc3: Bajancas Reserva (75 cl)
+        desc4: Piorro Reserva (75 cl) 
+        desc5: Vallado Reserva (75 cl)
+        price1: 14,00€
+        price2: 3,00€
+        price3: 16,00€
+        price4: 20,00€
+        price5: 40,00€
+    bairrada:
+      title: Bairrada
+      white_wine: 
+        title: White Table Wine
+        desc1: Quinta das Bágeiras (75 cl) 
+        desc2: Giz Vinhas Velhas (75 cl) 
+        price1: 13,00€
+        price2: 30,00€
+      tinto: 
+        title: Red Table Wine
+        desc1: Giz Vinhas Velhas (75 cl) 
+        desc2: Giz Vinha das Cavaleiras (75 cl) 	
+        price1: 30,00€
+        price2: 40,00€
+    beiras:
+      title: beiras
+      white_wine: 
+        title: White Table Wine
+        desc1: Casa Santos Lima Arinto/Chardonnay (75 cl) 
+        desc2: Beyra Reserva (75 cl) 
+        price1: 11,00€
+        price2: 13,00€
+      tinto: 
+        title: Red Table Wine
+        desc1: Beyra Reserva (75 cl)
+        desc2: Periquita Reserva (75 cl) 
+        price1: 13,00€
+        price2: 16,00€
+    alentejo:
+      title: Alentejo
+      white_wine: 
+        title: White Table Wine
+        desc1: Vale de Calada (75 cl) 
+        desc2: Monte da Peceguinha (75 cl) 	
+        desc3: Pêra Grave (75 cl)
+        desc4: Pêra Grave (copo/glass 20 cl)
+        desc5: Palpite Reserva (75 cl) 
+        price1: 12,00€
+        price2: 15,00€
+        price3: 18,00€
+        price4: 4,00€
+        price5: 20,00€
+      tinto: 
+        title: Red Table Wine
+        desc1: Monte da Peceguinha (75 cl) 
+        desc2: Pêra Grave (75 cl) 
+        desc3: Pêra Grave (copo/glass 20 cl) 
+        desc4: Palpite Reserva (75 cl) 
+        desc5: Pêra  Grave Reserva  (75 cl)
+        price1: 16,00€
+        price2: 19,00€
+        price3: 4,00€
+        price4: 20,00€
+        price5: 48,00€
+    rose:
+      title: Rosé
+      desc1: Vinha dos 9 - Minho (75 cl)
+      desc2: Vinha dos 9 - Minho (copo/glass 20 cl)
+      desc3: Piorro - Douro (75 cl) 
+      desc4: Monte da Peceguinha - Alentejo (75 cl)
+      price1: 10,00€
+      price2: 2,00€
+      price3: 13,00€
+      price4: 14,00€
+    sparkling_wines:
+      title: Sparkling Wines
+      desc1: Vinha dos 9 White Brut, Rosé Brut and Half-dry (75 cl)
+      desc2: Vinha dos 9 White Brut, Rosé Brut and Half-dry (glass, 20 cl)
+      desc3: Quinta das Bageiras Red (75 cl)
+      desc4: Soalheiro Alvarinho Bruto White
+      price1: 16,00€
+      price2: 5,00€
+      price3: 18,00€
+      price4: 28,00€
+    champagne:
+      title: Champagne
+      desc1: Collet Brut (75 cl) 	
+      desc2: Collet Brut (copo/glass, 20 cl)	
+      desc3: Collet Privee Rosé (75 cl) 	
+      desc4: Ruinart Blanc De Blanc (75 cl) 
+      desc5: Collet Collection Privee (75 cl) 
+      price1: 57,00€
+      price2: 14,00€
+      price3: 60,00€
+      price4: 68,00€
+      price5: 75,00€
+
 
 
 
 pt:
   ementa_main_context: 
-    title: Cozinha Portuguese mas com variedade
-    desc: lorem ipsum ...
+    title: Cozinha Tradicional Portuguesa with a twist
+    desc: Siga as deliciosas sugestões do chefe de segunda a sexta, deixe-se levar pela nossa carta ou prove os nossos petiscos em qualquer dia da semana
   menu: 
-    title: menu title content
-    desc: lorem ipsum ...
+    desc: ""
   la_carte:
-    starter: content starter
-    appetizer: content appetizer
-    fish: content fish
-    meat: content meat
-    vegetarian: content vegetarian
-    childrens_menu: content childrens_menu
-    desert: content desert
-    extra_info: extra info content...
+    starter: 
+      title: Couvert
+      desc: Pão, manteiga, azeitona marinada e requeijão com ervas aromáticas
+      price: 2,00€
+    amuse_bouche: 
+      title: Degustação
+      desc1: Melão com presunto laminado
+      desc2: Pota em molho verde
+      desc3: Feijão-frade com atum
+      price1: 2,00€
+      price2: 2,00€
+      price3: 2,00€
+    appetizer: 
+      title: Entradas
+      desc1: Creme de legumes 	
+      desc2: Brandade de bacalhau com molho de pimentos e escabeche de cebola roxa
+      desc3: Croquete da casa com puré de batata	
+      price1: 3,50€
+      price2: 4,50€
+      price3: 6,50€
+    fish: 
+      title: Peixe
+      desc1: Esparguete com Gambas 
+      desc2: Arroz negro com lulas e gambas
+      desc3: Bacalhau à moda de Braga
+      price1: 9,50€
+      price2: 14,00€
+      price3: 15,00€
+    meat: 
+      title: Carne
+      desc1: Tagliatele de costela mendinha	
+      desc2: Tournedó de vazia, batata gratinada e legumes salteados
+      desc3: Vitela cozinhada lentamente, esmagada de batata doce e molho de cogumelos
+      price1: 10,50€
+      price2: 16,00€
+      price3: 16,00€
+    vegetarian:  
+      title: Vegetariano
+      desc1: Beringela panada com puré e molho de tomate
+      desc2: Macarrão com grão e cogumelos
+      desc3: ""
+      price1: 6,00€
+      price2: 6,75€
+      price3: ""
+    childrens_menu: 
+      title: Menu Infantil
+      desc1: Panadinho de frango
+      desc2: Filetinhos de pescada
+      desc3: Acompanhado com arroz, batata, salada
+      price1: 5,00€
+      price2: 5,00€
+      price3: ""
+    desert: 
+      title: Dessert
+      desc1: Fruta laminada (3 variedades) 
+      desc2: Leite-creme de alecrim com amêndoa e curd de laranja
+      desc3: Pudim Abade de Priscos com crumble de amêndoa e curd de limão 
+      price1: 3,00€
+      price2: 3,50€
+      price3: 4,00€
   snacks:
-    title: snacks title
-    desc: snaks desc
+    title: Petiscos
+    cold_sandwich: 
+      title: Sandes Frias
+      desc1: Pão com manteiga
+      desc2: Sande simples 
+      desc3: Sande mista 
+      price1: 0,75€
+      price2: 2,00€
+      price3: 2,50€
+    hot_sandwich: 
+      title: Sandes Quentes
+      desc1: 1/2 Torrada
+      desc2: Torrada
+      desc3: Tosta simples (queijo ou fiambre) 
+      desc4: Tosta mista (queijo e fiambre)
+      desc5: Prego de frango 	
+      desc6: Sande de carne assada
+      price1: 1,00€
+      price2: 2,00€
+      price3: 2,50€
+      price4: 3,00€
+      price5: 5,50€
+      price6: 7,50€
+    platters: 
+      title: Tábuas
+      desc1: Tábua de queijos (ovelha, cabra e vaca)
+      desc2: Tábua de enchidos (paio, presunto e salpicão)
+      desc3: Tábua mista (queijo de cabra e ovelha, presunto e salpicão) 
+      price1: 9,50€
+      price2: 12,00€
+      price3: 14,00€
+    ice_cream: 
+      title: Gelados
+      desc1: 1 bola + chantilly (morango, chocolate, baunilha, caramelo) 
+      desc2: "Taça simples: 2 bolas + chantilly "
+      desc3: "A minha taça: 3 bolas + chantilly + 1 topping"
+      desc4: Bola suplementar (morango, chocolate, baunilha, caramelo) 	
+      desc5: Recheio suplementar
+      price1: 1,50€
+      price2: 2,50€
+      price3: 4,50€
+      price4: 1,00€
+      price5: 0,50€
+    pudding: 
+      title: Pudim Abade Priscos
+      desc1: Pudim Abade de Priscos (take away, 25 g) 
+      price1: 2,50€
+  beverage:
+    title: Bebidas
+    coffees: 
+      title: Cafetaria
+      desc1: Carioca de café
+      desc2: Pingo
+      desc3: Café espresso
+      desc4: Café descafeinado
+      desc5: Café com natas 
+      desc6: Café expresso duplo
+      desc7: Cappuccino
+      desc8: Café Bombom  
+      desc9: Copo de leite 
+      desc10: Meia de leite 
+      desc11: Latte Machiatto
+      desc12: Chocolate Quente	
+      desc13: Carioca de limão 
+      desc14: Chá (preto, branco, verde)
+      desc15: Irish Coffee 
+      price1: 1,00€
+      price2: 1,00€
+      price3: 1,00€
+      price4: 1,00€
+      price5: 1,30€
+      price6: 1,50€
+      price7: 1,50€
+      price8: 2,50€
+      price9: 1,20€
+      price10: 1,30€
+      price11: 1,50€
+      price12: 2,50€
+      price13: 1,00€
+      price14: 2,00€
+      price15: 5,00€
+    shakes: 
+      title: Batidos
+      desc1: Batido Proteico (banana, maça, mel, proteina e leite) 
+      price: 5,00€
+    non_alcohol:
+      title: Sem Álcool
+      desc1: Água s/ gás (50 cl)	
+      desc2: Água s/ gás (1L)
+      desc3: Água c/ gás  (25cl)
+      desc4: Água c/ gás  (75cl)
+      desc5: Água aromatizada Pedras limão ou frutos vermelhos (25 cl) 
+      desc6: Água tónica Schweeps (25 cl) 
+      desc7: Água tónica Schweeps Premium—Pimenta Rosa, Lima, Hibiscus (20 cl) 
+      desc8: Refrigerantes—Ginger Ale, Cola-Cola, 7Up, Fanta, Ice Tea, Guarana (33 cl)
+      desc9: Sumo de laranja ou limão natural (33 cl)	
+      desc10: Néctar de frutas—tutti frutti, pêra, pêssego, ananás (20 cl) 
+      desc11: Bebidas energéticas (35 cl) 
+      price1: 1,30€
+      price2: 1,50€
+      price3: 1,30€
+      price4: 2,00€
+      price5: 1,80€
+      price6: 1,80€
+      price7: 4,00€
+      price8: 1,50€
+      price9: 3,00€
+      price10: 1,50€
+      price11: 4,00€
+    alcohol:
+      title: Álcool
+      beers: 
+        title: Cervejas
+        desc1: Cerveja nacional mini (20 cl)
+        desc2: Cerveja nacional, garrafa (33 cl) 
+        desc3: Cerveja preta nacional, garrafa (33 cl) 	
+        desc4: Cerveja nacional sem álcool, garrafa (33 cl) 
+        desc5: Cerveja misturada—Panaché, Tango, Diesel (33 cl)
+        desc6: Cerveja misturada—Martini, Favaios (33 cl)
+        desc7: Cerveja estrangeira—Carlsberg (20 cl) 
+        desc8: Sidra de maçã—Somersby (33 cl) 
+        price1: 1,30€
+        price2: 1,80€
+        price3: 1,80€
+        price4: 1,80€
+        price5: 1,50€
+        price6: 2,00€
+        price7: 2,20€
+        price8: 3,50€
+      sangria: 
+        title: Sangria
+        desc1: Sangria com vinho branco/ tinto (1 L)
+        desc2: Sangria com vinho rosé e frutos vermelhos (1 L)
+        desc3: Sangria com vinho espumante e licor (1 L) 
+        price1: 15,00€
+        price2: 20,00€
+        price3: 25,00€
+      aperitifs: 
+        title: Aperitivos
+        desc1: Vermutes—Martini Rosso, Bianco, Dry (6 cl) 	
+        desc2: Porto tawny tónico (6 cl) 
+        desc3: Ricard (6cl)  
+        desc4: Campari (6cl) 
+        desc5: Asperol (6cl) 
+        price1: 4,00€
+        price2: 5,00€
+        price3: 5,00€
+        price4: 5,00€
+        price5: 5,00€
+      wines: 
+        title: Vinhos Generosos
+        desc1: Moscatel Setúbal (6cl) 
+        desc2: Madeira (6cl) 
+        desc3: Porto Branco (6cl) 
+        desc4: Porto Branco (6cl) 
+        desc5: Porto Tawny (6cl) 
+        desc6: Porto Ruby (6cl) 
+        desc7: Porto Tawny Reverva (6cl) 
+        desc8: LBV (6cl) 
+        desc9: Vintage (6cl) 
+        desc10: Porto 10 anos (6cl) 
+        desc11: Porto 20 anos (6cl) 
+        price1: 4,50€
+        price2: 4,50€
+        price3: 4,50€
+        price4: 4,50€
+        price5: 4,50€
+        price6: 4,50€
+        price7: 5,50€
+        price8: 6,50€
+        price9: 7,50€
+        price10: 8,00€
+        price11: 12,00€
+      liqueurs: 
+        title: Licores
+        desc1: Licor Beirão (6cl) 
+        desc2: Licor de Ginja (6cl) 
+        desc3: Amêndoa Amarga (6cl) 
+        desc4: Licor de Café (6cl) 
+        desc5: Bailey´s (6cl) 
+        desc6: Safari (6cl) 
+        desc7: Frangélico (6cl) 
+        desc8: Grand Marnier (6cl) 
+        desc9: Drambuie (6cl) 
+        price1: 4,00€
+        price2: 4,00€
+        price3: 4,00€
+        price4: 4,00€
+        price5: 5,00€
+        price6: 6,00€
+        price7: 6,00€
+        price8: 7,00€
+        price9: 8,00€
+      gin: 
+        title: GIN
+        desc1: Gordon´s (6cl)
+        desc2: Bombay Original (6cl)
+        desc3: Gordon´s Pink (6cl)
+        desc4: Bombay Sapphire (6cl)
+        desc5: Bulldog (6cl)
+        desc6: Sharish (6cl)
+        desc7: Hendrick´s (6cl)
+        desc8: Mare (6cl)
+        desc9: G´Vine Floraison (6cl)
+        desc10: G´Vine Nouaison (6cl)
+        desc11: Monkey 47 (6cl)
+        desc12: "(Inclui água tónica e arómaticos)"
+        price1: 5,50€
+        price2: 5,50€
+        price3: 6,50€
+        price4: 6,50€
+        price5: 8,00€
+        price6: 9,50€
+        price7: 11,00€
+        price8: 13,00€
+        price9: 14,00€
+        price10: 15,00€
+        price11: 16,00€
+        price12: ""
+      vodka: 
+        title: Vodka / Rum /Tequilla
+        desc1: Vodka Eristoff (6cl)
+        desc2: Vodka Eristoff Black (6cl)
+        desc3: Vodka Absolut (6cl)
+        desc4: Rum com coco Malibu (6cl)
+        desc5: Rum Carta Blanca Bacardi (6cl)
+        desc6: Rum Anejo Barceló (6cl)
+        desc7: Rum 7 anos Havana (6cl)
+        desc8: Tequilla Sierra (6cl)
+        price1: 5,00€
+        price2: 5,50€
+        price3: 6,00€
+        price4: 5,00€
+        price5: 6,00€
+        price6: 6,00€
+        price7: 8,00€
+        price8: 5,00€
+      whisky_new: 
+        title: Whisky Novo
+        desc1: Cutty Sark (6cl)
+        desc2: J&B (6cl)
+        desc3: William Lawson´s (6cl)
+        price1: 4,00€
+        price2: 4,50€
+        price3: 4,50€
+      whisky_old: 
+        title: Whisky Velho 
+        desc1: Logan 12 anos (6cl)
+        desc2: Ballantine´s 12 anos (6cl)
+        desc3: J&B 15 anos (6cl)
+        desc4: Old Parr 12 anos (6cl)
+        desc5: Swing (6cl)
+        price1: 6,00€
+        price2: 7,00€
+        price3: 10,00€
+        price4: 15,00€
+        price5: 22,00€
+      malt: 
+        title: Malte
+        desc1: Cardhu 12 anos (6 cl)
+        price1: 10,00€
+      irish: 
+        title: Irish
+        desc1: Bushmills (6 cl) 
+        desc2: Jameson (6 cl) 
+        price1: 5,00€
+        price2: 6,50€
+      american: 
+        title: Americano
+        desc1: Jim Bean (6 cl) 
+        desc2: Jack Daniel´s (6 cl) 
+        price1: 5,00€
+        price2: 6,50€
+      aguardente: 
+        title: Aguardente / Brandy / Cognac / Armagnac
+        desc1: Aguardente Bagaceira Aldeia Velha (6 cl) 
+        desc2: Aguardente Velha Aliança Velha (6 cl)
+        desc3: Aguardente Velha Reserva CRF (6 cl)
+        desc4: Aguardente de Cana Velho Barreiro (6 cl) 	
+        desc5: Brandy Croft (6 cl) 
+        desc6: Brandy Macieira (6 cl) 	
+        desc7: Cognac Martel V.S. (6 cl)
+        desc8: Cognac Remy Martin V.S.O.P. (6 cl) 
+        price1: 5,00€
+        price2: 5,00€
+        price3: 5,00€
+        price4: 5,00€
+        price5: 5,00€
+        price6: 5,00€
+        price7: 8,00€
+        price8: 10,00€
+      cocktails_alcohol: 
+        title: Cocktails com Álcool
+        desc1: Khir Royal (6 cl) 
+        desc2: Caipirinha, Caipirosca, Caipirão, Caipiríssima (6 cl) 
+        desc3: Black Russian (6 cl) 
+        desc4: Wiskey Sour (6 cl) 	
+        desc5: Dry Martini (6 cl)
+        desc6: Tom Collins (6 cl)
+        desc7: Mojito (6 cl) 
+        desc8: Daiquiri (6 cl) 	
+        desc9: Piña Colada (6 cl) 	
+        price1: 5,00€
+        price2: 6,00€
+        price3: 6,00€
+        price4: 6,00€
+        price5: 6,00€
+        price6: 6,00€
+        price7: 6,50€
+        price8: 6,50€
+        price9: 7,00€
+      cocktails_non_alcohol: 
+        title: Cocktails sem Álcool
+        desc1: Bela Pêra (6 cl) 
+        desc2: Cinderela (6 cl)	
+        price1: 5,00€
+        price2: 5,00€
+  vinhos:
+    title: Wines
+    vinhos_verde:
+      title: Vinho verde 
+      white_wine: 
+        title: Branco
+        desc1: Vinha dos 9 (75 cl) 
+        desc2: Vinha dos 9 (glass 20 cl) 
+        desc3: Anselmo Mendes 3 Rios Escolha (75 cl)
+        desc4: Soalheiro Alvarinho (75 cl) 
+        desc5: Soalheiro Alvarinho (glass 20 cl) 
+        desc6: Soalheiro Primeiras Vinhas (75 cl) 
+        price1: 10,00€
+        price2: 2,00€
+        price3: 13,50€
+        price4: 18,50€
+        price5: 4,00€
+        price6: 29,00€
+      tinto: 
+        title: Tinto
+        desc1: Ponte da Barca (75 cl) 
+        price1: 10,00€
+    dao:
+      title: Dao
+      white_wine: 
+        title: Branco
+        desc1: Vinha Paz (75 cl) 	
+        price1: 14,00€
+      tinto: 
+        title: Tinto
+        desc1: Porta dos Cavaleiros Reserva (75 cl) 	
+        desc2: Vinha Paz (75 cl)	
+        price1: 18,00€
+        price2: 18,00€
+    douro:
+      title: Douro
+      white_wine: 
+        title: Branco
+        desc1: Piorro Colheita (75 cl) 
+        desc2: Piorro Colheita (glass 20 cl) 
+        desc3: Castello D´Alba Vinhas Velhas (75 cl) 
+        desc4: Piorro Vinhas Velhas (75 cl)
+        desc5: Vallado Reserva (75 cl) 
+        price1: 14,00€
+        price2: 3,00€
+        price3: 15,00€
+        price4: 28,00€
+        price5: 31,00€
+      tinto: 
+        title: Tinto
+        desc1: Piorro Colheita (75 cl) 
+        desc2: Piorro Colheita (glass 20 cl) 
+        desc3: Bajancas Reserva (75 cl)
+        desc4: Piorro Reserva (75 cl) 
+        desc5: Vallado Reserva (75 cl)
+        price1: 14,00€
+        price2: 3,00€
+        price3: 16,00€
+        price4: 20,00€
+        price5: 40,00€
+    bairrada:
+      title: Bairrada
+      white_wine: 
+        title: Branco
+        desc1: Quinta das Bágeiras (75 cl) 
+        desc2: Giz Vinhas Velhas (75 cl) 
+        price1: 13,00€
+        price2: 30,00€
+      tinto: 
+        title: Tinto
+        desc1: Giz Vinhas Velhas (75 cl) 
+        desc2: Giz Vinha das Cavaleiras (75 cl) 	
+        price1: 30,00€
+        price2: 40,00€
+    beiras:
+      title: beiras
+      white_wine: 
+        title: Branco
+        desc1: Casa Santos Lima Arinto/Chardonnay (75 cl) 
+        desc2: Beyra Reserva (75 cl) 
+        price1: 11,00€
+        price2: 13,00€
+      tinto: 
+        title: Tinto
+        desc1: Beyra Reserva (75 cl)
+        desc2: Periquita Reserva (75 cl) 
+        price1: 13,00€
+        price2: 16,00€
+    alentejo:
+      title: Alentejo
+      white_wine: 
+        title: Branco
+        desc1: Vale de Calada (75 cl) 
+        desc2: Monte da Peceguinha (75 cl) 	
+        desc3: Pêra Grave (75 cl)
+        desc4: Pêra Grave (copo/glass 20 cl)
+        desc5: Palpite Reserva (75 cl) 
+        price1: 12,00€
+        price2: 15,00€
+        price3: 18,00€
+        price4: 4,00€
+        price5: 20,00€
+      tinto: 
+        title: Tinto
+        desc1: Monte da Peceguinha (75 cl) 
+        desc2: Pêra Grave (75 cl) 
+        desc3: Pêra Grave (copo/glass 20 cl) 
+        desc4: Palpite Reserva (75 cl) 
+        desc5: Pêra  Grave Reserva  (75 cl)
+        price1: 16,00€
+        price2: 19,00€
+        price3: 4,00€
+        price4: 20,00€
+        price5: 48,00€
+    rose:
+      title: Rosé
+      desc1: Vinha dos 9 - Minho (75 cl)
+      desc2: Vinha dos 9 - Minho (copo/glass 20 cl)
+      desc3: Piorro - Douro (75 cl) 
+      desc4: Monte da Peceguinha - Alentejo (75 cl)
+      price1: 10,00€
+      price2: 2,00€
+      price3: 13,00€
+      price4: 14,00€
+    sparkling_wines:
+      title: Espumantes
+      desc1: Vinha dos 9 Branco Bruto, Rosé Meio Seco e Bruto (75 cl)
+      desc2: Vinha dos 9 Branco Bruto, Rosé Meio Seco e Bruto (copo, 20 cl)
+      desc3: Quinta das Bageiras Tinto (75 cl)
+      desc4: Soalheiro Alvarinho Bruto Branco
+      price1: 16,00€
+      price2: 5,00€
+      price3: 18,00€
+      price4: 28,00€
+    champagne:
+      title: Champanhe
+      desc1: Collet Brut (75 cl) 	
+      desc2: Collet Brut (copo/glass, 20 cl)	
+      desc3: Collet Privee Rosé (75 cl) 	
+      desc4: Ruinart Blanc De Blanc (75 cl) 
+      desc5: Collet Collection Privee (75 cl) 
+      price1: 57,00€
+      price2: 14,00€
+      price3: 60,00€
+      price4: 68,00€
+      price5: 75,00€
 
 
-es:
-  ementa_main_context: 
-    title: Cozinha em espanhol
-    desc: lorem ipsum ...
-  menu: 
-    title: menu title content
-    desc: lorem ipsum ...
-  la_carte:
-    starter: content starter
-    appetizer: content appetizer
-    fish: content fish
-    meat: content meat
-    vegetarian: content vegetarian
-    childrens_menu: content childrens_menu
-    desert: content desert
-    extra_info: extra info content...
-  snacks:
-    title: snacks title
-    desc: snaks desc
 
-fr:
-  ementa_main_context: 
-    title: Cozinha em Frances
-    desc: lorem ipsum ...
-  menu: 
-    title: menu title content
-    desc: lorem ipsum ...
-  la_carte:
-    starter: content starter
-    appetizer: content appetizer
-    fish: content fish
-    meat: content meat
-    vegetarian: content vegetarian
-    childrens_menu: content childrens_menu
-    desert: content desert
-    extra_info: extra info content...
-  snacks:
-    title: snacks title
-    desc: snaks desc
+# es:
+#   ementa_main_context: 
+#     title: Cozinha em espanhol
+#     desc: lorem ipsum ...
+#   menu: 
+#     title: menu title content
+#     desc: lorem ipsum ...
+#   la_carte:
+#     starter: content starter
+#     appetizer: content appetizer
+#     fish: content fish
+#     meat: content meat
+#     vegetarian: content vegetarian
+#     childrens_menu: content childrens_menu
+#     desert: content desert
+#     extra_info: extra info content...
+#   snacks:
+#     title: snacks title
+#     desc: snaks desc
+
+# fr:
+#   ementa_main_context: 
+#     title: Cozinha em Frances
+#     desc: lorem ipsum ...
+#   menu: 
+#     title: menu title content
+#     desc: lorem ipsum ...
+#   la_carte:
+#     starter: content starter
+#     appetizer: content appetizer
+#     fish: content fish
+#     meat: content meat
+#     vegetarian: content vegetarian
+#     childrens_menu: content childrens_menu
+#     desert: content desert
+#     extra_info: extra info content...
+#   snacks:
+#     title: snacks title
+#     desc: snaks desc

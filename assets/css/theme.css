@@ -27,7 +27,14 @@ header a:active{ color: white; }
   .big_screen_organize{ text-align: center !important; }
 }
 
+.la_carte_content .big_screen_organize{ text-align: left !important; }
+.snacks_content .big_screen_organize{ text-align: left !important; }
+.beverage_content .big_screen_organize{ text-align: left !important; }
 .big_screen_organize{ text-align: left; }
+.price_content{ 
+  text-align: right; 
+  font-weight: bold;
+}
 .bg_lgrey{background-color: #FFF;}
 .content_center{ align-content: center; }
 .invisible_content{ opacity: 0; }
@@ -51,7 +58,7 @@ header a:active{ color: white; }
   color: #707070;
 }
 .ementa_content{
-  font-size: 19px;
+  font-size: 21px;
   font-weight: 300;
   color: #9B9936;
   margin: 0px !important;
@@ -61,9 +68,16 @@ header a:active{ color: white; }
   font-weight: bold;
   color: #707070;
 }
-.ementa_desc{
+.ementa_desc_green{
   font-size: 16px;
+  font-weight: 300;
+  color: #9B9936;
+  margin: 0px;
+}
+.ementa_desc{
+  font-size: 13px;
   color: #707070;
+  margin: 0px;
 }
 
 
