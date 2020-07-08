@@ -23,71 +23,21 @@ class: index
     <div class="menu_content pd-10">
       <div class="big_screen_organize">
         <p class="ementa_title ementa_content">Menu</p>
-        <p class="ementa_title">{{site.data.ementa.en.menu.title}}</p>
         <p class="ementa_desc">{{site.data.ementa.en.menu.desc}}</p>
       </div>
     </div>
   
     <!-- a la carte -->
-    <div class="main_info col-md-12 pd-10-top pd-10-bottom">
-      <div class="divition_content"></div>
-    </div>
-    <div class="la_carte_content pd-10">
-      <div class="big_screen_organize">
-        <p class="ementa_title ementa_content">A la Carte</p>
-        <!-- starter -->
-        <div>
-          <p class="ementa_desc_important mrg-0">Starter</p>
-          <p class="ementa_desc">{{site.data.ementa.en.la_carte.starter}}</p>
-        </div>
-        <!-- appetizers -->
-        <div>
-          <p class="ementa_desc_important mrg-0">Appetizers</p>
-          <p class="ementa_desc">{{site.data.ementa.en.la_carte.appetizer}}</p>
-        </div>
-        <!-- fish -->
-        <div>
-          <p class="ementa_desc_important mrg-0">Fish</p>
-          <p class="ementa_desc">{{site.data.ementa.en.la_carte.fish}}</p>
-        </div>
-        <!-- meat -->
-        <div>
-          <p class="ementa_desc_important mrg-0">Meat</p>
-          <p class="ementa_desc">{{site.data.ementa.en.la_carte.meat}}</p>
-        </div>
-        <!-- vegetarian -->
-        <div>
-          <p class="ementa_desc_important mrg-0">Vegetarian</p>
-          <p class="ementa_desc">{{site.data.ementa.en.la_carte.vegetarian}}</p>
-        </div>
-        <!-- childs menu -->
-        <div>
-          <p class="ementa_desc_important mrg-0">Children's menu</p>
-          <p class="ementa_desc">{{site.data.ementa.en.la_carte.childrens_menu}}</p>
-        </div>
-        <!-- dessert -->
-        <div>
-          <p class="ementa_desc_important mrg-0">Dessert</p>
-          <p class="ementa_desc">{{site.data.ementa.en.la_carte.desert}}</p>
-        </div>
-        <!-- extra info -->
-        <div>
-          <p class="ementa_desc">{{site.data.ementa.en.la_carte.extra_info}}</p>
-        </div>
-      </div>
-    </div>
+    {% include en_menu.html %}
   
     <!-- snaks -->
-    <div class="main_info col-md-12 pd-10-top pd-10-bottom">
-      <div class="divition_content"></div>
-    </div>  
-    <div class="snacks_content pd-10">
-      <div class="big_screen_organize">
-        <p class="ementa_title ementa_content">Snacks</p>
-        <p class="ementa_title">{{site.data.ementa.en.snacks.title}}</p>
-        <p class="ementa_desc">{{site.data.ementa.en.snacks.desc}}</p>
-      </div>
-    </div>
+    {% include en_snacks.html %}
+  
+    <!-- Beverage -->
+    {% include en_beverage.html %}
+  
+    <!-- Wines -->
+    {% include en_wines.html %}
   </div>
 
 
