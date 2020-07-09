@@ -15,7 +15,7 @@ collections: #====================| POSTS |=====================================
     editor:
       preview: true
     files:
-      ---| INDEX |---
+      # ---| INDEX |---
       - name: "ementa"
         label: "Ementa"
         file: "_data/ementa.yml"
@@ -205,7 +205,7 @@ collections: #====================| POSTS |=====================================
                       - { label: "Preço do produto 2", name: "price2", widget: "string" }
                       - { label: "Produto 3", name: "desc3", widget: "string" }
                       - { label: "Preço do produto 3", name: "price3", widget: "string" }
-      ---| SNACKS |---
+      # ---| SNACKS |---
       - name: "snacks"
         label: "Snacks"
         file: "_data/snacks.yml"
