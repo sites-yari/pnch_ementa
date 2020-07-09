@@ -24,9 +24,9 @@ collections: #====================| POSTS |=====================================
             name: en
             widget: "object"
             fields:
-      - name: "snacks"
+      - name: "petiscos"
         label: "Petiscos"
-        file: "_data/snacks.yml"
+        file: "_data/petiscos.yml"
         description: Everything needed for the index 2
         fields:
           - label: "Ingles" # ---| ingles |---
