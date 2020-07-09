@@ -44,9 +44,9 @@ collections: #====================| POSTS |=====================================
                 widget: object
                 fields:
                   - { label: "Titulo", name: "title", widget: "string" }
-      - name: "petiscos2"
+      - name: "ementa-petiscos2"
         label: "Petiscos 2"
-        file: "_data/petiscos2.yml"
+        file: "_data/ementa-petiscos2.yml"
         description: Everything needed for the index
         fields:
           - label: "Ingles" # ---| ingles |---
