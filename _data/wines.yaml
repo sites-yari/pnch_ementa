@@ -1,0 +1,298 @@
+en:
+  vinhos:
+    title: Wines
+    vinhos_verde:
+      title: Vinho verde 
+      white_wine: 
+        title: White Table Wine
+        desc1: Vinha dos 9 (75 cl) 
+        desc2: Vinha dos 9 (glass 20 cl) 
+        desc3: Anselmo Mendes 3 Rios Escolha (75 cl)
+        desc4: Soalheiro Alvarinho (75 cl) 
+        desc5: Soalheiro Alvarinho (glass 20 cl) 
+        desc6: Soalheiro Primeiras Vinhas (75 cl) 
+        price1: 10,00€
+        price2: 2,00€
+        price3: 13,50€
+        price4: 18,50€
+        price5: 4,00€
+        price6: 29,00€
+      tinto: 
+        title: Red Table Wine
+        desc1: Ponte da Barca (75 cl) 
+        price1: 10,00€
+    dao:
+      title: Dao
+      white_wine: 
+        title: White Table Wine
+        desc1: Vinha Paz (75 cl) 	
+        price1: 14,00€
+      tinto: 
+        title: Red Table Wine
+        desc1: Porta dos Cavaleiros Reserva (75 cl) 	
+        desc2: Vinha Paz (75 cl)	
+        price1: 18,00€
+        price2: 18,00€
+    douro:
+      title: Douro
+      white_wine: 
+        title: White Table Wine
+        desc1: Piorro Colheita (75 cl) 
+        desc2: Piorro Colheita (glass 20 cl) 
+        desc3: Castello D´Alba Vinhas Velhas (75 cl) 
+        desc4: Piorro Vinhas Velhas (75 cl)
+        desc5: Vallado Reserva (75 cl) 
+        price1: 14,00€
+        price2: 3,00€
+        price3: 15,00€
+        price4: 28,00€
+        price5: 31,00€
+      tinto: 
+        title: Red Table Wine
+        desc1: Piorro Colheita (75 cl) 
+        desc2: Piorro Colheita (glass 20 cl) 
+        desc3: Bajancas Reserva (75 cl)
+        desc4: Piorro Reserva (75 cl) 
+        desc5: Vallado Reserva (75 cl)
+        price1: 14,00€
+        price2: 3,00€
+        price3: 16,00€
+        price4: 20,00€
+        price5: 40,00€
+    bairrada:
+      title: Bairrada
+      white_wine: 
+        title: White Table Wine
+        desc1: Quinta das Bágeiras (75 cl) 
+        desc2: Giz Vinhas Velhas (75 cl) 
+        price1: 13,00€
+        price2: 30,00€
+      tinto: 
+        title: Red Table Wine
+        desc1: Giz Vinhas Velhas (75 cl) 
+        desc2: Giz Vinha das Cavaleiras (75 cl) 	
+        price1: 30,00€
+        price2: 40,00€
+    beiras:
+      title: beiras
+      white_wine: 
+        title: White Table Wine
+        desc1: Casa Santos Lima Arinto/Chardonnay (75 cl) 
+        desc2: Beyra Reserva (75 cl) 
+        price1: 11,00€
+        price2: 13,00€
+      tinto: 
+        title: Red Table Wine
+        desc1: Beyra Reserva (75 cl)
+        desc2: Periquita Reserva (75 cl) 
+        price1: 13,00€
+        price2: 16,00€
+    alentejo:
+      title: Alentejo
+      white_wine: 
+        title: White Table Wine
+        desc1: Vale de Calada (75 cl) 
+        desc2: Monte da Peceguinha (75 cl) 	
+        desc3: Pêra Grave (75 cl)
+        desc4: Pêra Grave (copo/glass 20 cl)
+        desc5: Palpite Reserva (75 cl) 
+        price1: 12,00€
+        price2: 15,00€
+        price3: 18,00€
+        price4: 4,00€
+        price5: 20,00€
+      tinto: 
+        title: Red Table Wine
+        desc1: Monte da Peceguinha (75 cl) 
+        desc2: Pêra Grave (75 cl) 
+        desc3: Pêra Grave (copo/glass 20 cl) 
+        desc4: Palpite Reserva (75 cl) 
+        desc5: Pêra  Grave Reserva  (75 cl)
+        price1: 16,00€
+        price2: 19,00€
+        price3: 4,00€
+        price4: 20,00€
+        price5: 48,00€
+    rose:
+      title: Rosé
+      desc1: Vinha dos 9 - Minho (75 cl)
+      desc2: Vinha dos 9 - Minho (copo/glass 20 cl)
+      desc3: Piorro - Douro (75 cl) 
+      desc4: Monte da Peceguinha - Alentejo (75 cl)
+      price1: 10,00€
+      price2: 2,00€
+      price3: 13,00€
+      price4: 14,00€
+    sparkling_wines:
+      title: Sparkling Wines
+      desc1: Vinha dos 9 White Brut, Rosé Brut and Half-dry (75 cl)
+      desc2: Vinha dos 9 White Brut, Rosé Brut and Half-dry (glass, 20 cl)
+      desc3: Quinta das Bageiras Red (75 cl)
+      desc4: Soalheiro Alvarinho Bruto White
+      price1: 16,00€
+      price2: 5,00€
+      price3: 18,00€
+      price4: 28,00€
+    champagne:
+      title: Champagne
+      desc1: Collet Brut (75 cl) 	
+      desc2: Collet Brut (copo/glass, 20 cl)	
+      desc3: Collet Privee Rosé (75 cl) 	
+      desc4: Ruinart Blanc De Blanc (75 cl) 
+      desc5: Collet Collection Privee (75 cl) 
+      price1: 57,00€
+      price2: 14,00€
+      price3: 60,00€
+      price4: 68,00€
+      price5: 75,00€
+
+
+
+
+pt:
+  vinhos:
+    title: Wines
+    vinhos_verde:
+      title: Vinho verde 
+      white_wine: 
+        title: Branco
+        desc1: Vinha dos 9 (75 cl) 
+        desc2: Vinha dos 9 (glass 20 cl) 
+        desc3: Anselmo Mendes 3 Rios Escolha (75 cl)
+        desc4: Soalheiro Alvarinho (75 cl) 
+        desc5: Soalheiro Alvarinho (glass 20 cl) 
+        desc6: Soalheiro Primeiras Vinhas (75 cl) 
+        price1: 10,00€
+        price2: 2,00€
+        price3: 13,50€
+        price4: 18,50€
+        price5: 4,00€
+        price6: 29,00€
+      tinto: 
+        title: Tinto
+        desc1: Ponte da Barca (75 cl) 
+        price1: 10,00€
+    dao:
+      title: Dao
+      white_wine: 
+        title: Branco
+        desc1: Vinha Paz (75 cl) 	
+        price1: 14,00€
+      tinto: 
+        title: Tinto
+        desc1: Porta dos Cavaleiros Reserva (75 cl) 	
+        desc2: Vinha Paz (75 cl)	
+        price1: 18,00€
+        price2: 18,00€
+    douro:
+      title: Douro
+      white_wine: 
+        title: Branco
+        desc1: Piorro Colheita (75 cl) 
+        desc2: Piorro Colheita (glass 20 cl) 
+        desc3: Castello D´Alba Vinhas Velhas (75 cl) 
+        desc4: Piorro Vinhas Velhas (75 cl)
+        desc5: Vallado Reserva (75 cl) 
+        price1: 14,00€
+        price2: 3,00€
+        price3: 15,00€
+        price4: 28,00€
+        price5: 31,00€
+      tinto: 
+        title: Tinto
+        desc1: Piorro Colheita (75 cl) 
+        desc2: Piorro Colheita (glass 20 cl) 
+        desc3: Bajancas Reserva (75 cl)
+        desc4: Piorro Reserva (75 cl) 
+        desc5: Vallado Reserva (75 cl)
+        price1: 14,00€
+        price2: 3,00€
+        price3: 16,00€
+        price4: 20,00€
+        price5: 40,00€
+    bairrada:
+      title: Bairrada
+      white_wine: 
+        title: Branco
+        desc1: Quinta das Bágeiras (75 cl) 
+        desc2: Giz Vinhas Velhas (75 cl) 
+        price1: 13,00€
+        price2: 30,00€
+      tinto: 
+        title: Tinto
+        desc1: Giz Vinhas Velhas (75 cl) 
+        desc2: Giz Vinha das Cavaleiras (75 cl) 	
+        price1: 30,00€
+        price2: 40,00€
+    beiras:
+      title: beiras
+      white_wine: 
+        title: Branco
+        desc1: Casa Santos Lima Arinto/Chardonnay (75 cl) 
+        desc2: Beyra Reserva (75 cl) 
+        price1: 11,00€
+        price2: 13,00€
+      tinto: 
+        title: Tinto
+        desc1: Beyra Reserva (75 cl)
+        desc2: Periquita Reserva (75 cl) 
+        price1: 13,00€
+        price2: 16,00€
+    alentejo:
+      title: Alentejo
+      white_wine: 
+        title: Branco
+        desc1: Vale de Calada (75 cl) 
+        desc2: Monte da Peceguinha (75 cl) 	
+        desc3: Pêra Grave (75 cl)
+        desc4: Pêra Grave (copo/glass 20 cl)
+        desc5: Palpite Reserva (75 cl) 
+        price1: 12,00€
+        price2: 15,00€
+        price3: 18,00€
+        price4: 4,00€
+        price5: 20,00€
+      tinto: 
+        title: Tinto
+        desc1: Monte da Peceguinha (75 cl) 
+        desc2: Pêra Grave (75 cl) 
+        desc3: Pêra Grave (copo/glass 20 cl) 
+        desc4: Palpite Reserva (75 cl) 
+        desc5: Pêra  Grave Reserva  (75 cl)
+        price1: 16,00€
+        price2: 19,00€
+        price3: 4,00€
+        price4: 20,00€
+        price5: 48,00€
+    rose:
+      title: Rosé
+      desc1: Vinha dos 9 - Minho (75 cl)
+      desc2: Vinha dos 9 - Minho (copo/glass 20 cl)
+      desc3: Piorro - Douro (75 cl) 
+      desc4: Monte da Peceguinha - Alentejo (75 cl)
+      price1: 10,00€
+      price2: 2,00€
+      price3: 13,00€
+      price4: 14,00€
+    sparkling_wines:
+      title: Espumantes
+      desc1: Vinha dos 9 Branco Bruto, Rosé Meio Seco e Bruto (75 cl)
+      desc2: Vinha dos 9 Branco Bruto, Rosé Meio Seco e Bruto (copo, 20 cl)
+      desc3: Quinta das Bageiras Tinto (75 cl)
+      desc4: Soalheiro Alvarinho Bruto Branco
+      price1: 16,00€
+      price2: 5,00€
+      price3: 18,00€
+      price4: 28,00€
+    champagne:
+      title: Champanhe
+      desc1: Collet Brut (75 cl) 	
+      desc2: Collet Brut (copo/glass, 20 cl)	
+      desc3: Collet Privee Rosé (75 cl) 	
+      desc4: Ruinart Blanc De Blanc (75 cl) 
+      desc5: Collet Collection Privee (75 cl) 
+      price1: 57,00€
+      price2: 14,00€
+      price3: 60,00€
+      price4: 68,00€
+      price5: 75,00€
