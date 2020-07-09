@@ -38,7 +38,7 @@ collections: #====================| POSTS |=====================================
               - label: "A la carte"           # ---| Menu content |---
                 name: la_carte
                 widget: object
-                fields:
+                fields: 
                   - label: "Starter"
                     name: starter
                     widget: object
