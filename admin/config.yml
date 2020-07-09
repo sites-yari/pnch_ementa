@@ -205,8 +205,7 @@ collections: #====================| POSTS |=====================================
                       - { label: "Preço do produto 2", name: "price2", widget: "string" }
                       - { label: "Produto 3", name: "desc3", widget: "string" }
                       - { label: "Preço do produto 3", name: "price3", widget: "string" }
-      # ---| SNACKS |---
-      - name: "snacks"
+      - name: "snacks" # ---| SNACKS |---
         label: "Snacks"
         file: "_data/snacks.yml"
         description: Everything needed for the index
