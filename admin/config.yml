@@ -33,7 +33,7 @@ collections: #====================| POSTS |=====================================
       - name: "petiscos"
         label: "Petiscos"
         file: "_data/petiscos.yml"
-        description: Everything needed for the index 2
+        description: Everything about petiscos
         fields:
           - label: "Ingles" # ---| ingles |---
             name: en
