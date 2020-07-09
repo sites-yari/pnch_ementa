@@ -1,0 +1,105 @@
+
+
+en:
+  snacks:
+    title: Snacks
+    cold_sandwich: 
+      title: Cold Sandwiches
+      desc1: Bread and butter
+      desc2: Sandwich with one ingredient
+      desc3: Sandwich with two ingredients
+      price1: 0,75€
+      price2: 2,00€
+      price3: 2,50€
+    hot_sandwich: 
+      title: Hot Sandwiches
+      desc1: 1/2 Toast
+      desc2: Toast
+      desc3: Toast with one ingredient (cheese or ham)
+      desc4: Toast with two ingredient (cheese or ham)
+      desc5: Chicken sandwich
+      desc6: Roast beef sandwich
+      price1: 1,00€
+      price2: 2,00€
+      price3: 2,50€
+      price4: 3,00€
+      price5: 5,50€
+      price6: 7,50€
+    platters: 
+      title: Platters
+      desc1: Platter of cheeses (sheep’s, goat’s and cow’s)
+      desc2: Platter of Portuguese sausages (paio sausage, cured ham and salpicão sausage)
+      desc3: Mixed platter (goat’s and sheep’s cheese, cured ham and salpicão sausage)
+      price1: 9,50€
+      price2: 12,00€
+      price3: 14,00€
+    ice_cream: 
+      title: Ice Cream
+      desc1: 1 scoop + whipped cream (strawberry, chocolate, vanilla, caramel)
+      desc2: "Plain bowl: 2 scoops + 1 whipped cream"
+      desc3: "My bowl: 3 scoops + whipped cream + 1 topping"
+      desc4: Extra scoop (strawberry, chocolate, vanilla, caramel)
+      desc5: Extra filling
+      price1: 1,50€
+      price2: 2,50€
+      price3: 4,50€
+      price4: 1,00€
+      price5: 0,50€
+    pudding: 
+      title: Abade Priscos Pudding
+      desc1: Abade de Priscos (take away, 25 g)
+      price1: 2,50€
+
+
+
+
+pt:
+  snacks:
+    title: Petiscos
+    cold_sandwich: 
+      title: Sandes Frias
+      desc1: Pão com manteiga
+      desc2: Sande simples 
+      desc3: Sande mista 
+      price1: 0,75€
+      price2: 2,00€
+      price3: 2,50€
+    hot_sandwich: 
+      title: Sandes Quentes
+      desc1: 1/2 Torrada
+      desc2: Torrada
+      desc3: Tosta simples (queijo ou fiambre) 
+      desc4: Tosta mista (queijo e fiambre)
+      desc5: Prego de frango 	
+      desc6: Sande de carne assada
+      price1: 1,00€
+      price2: 2,00€
+      price3: 2,50€
+      price4: 3,00€
+      price5: 5,50€
+      price6: 7,50€
+    platters: 
+      title: Tábuas
+      desc1: Tábua de queijos (ovelha, cabra e vaca)
+      desc2: Tábua de enchidos (paio, presunto e salpicão)
+      desc3: Tábua mista (queijo de cabra e ovelha, presunto e salpicão) 
+      price1: 9,50€
+      price2: 12,00€
+      price3: 14,00€
+    ice_cream: 
+      title: Gelados
+      desc1: 1 bola + chantilly (morango, chocolate, baunilha, caramelo) 
+      desc2: "Taça simples: 2 bolas + chantilly "
+      desc3: "A minha taça: 3 bolas + chantilly + 1 topping"
+      desc4: Bola suplementar (morango, chocolate, baunilha, caramelo) 	
+      desc5: Recheio suplementar
+      price1: 1,50€
+      price2: 2,50€
+      price3: 4,50€
+      price4: 1,00€
+      price5: 0,50€
+    pudding: 
+      title: Pudim Abade Priscos
+      desc1: Pudim Abade de Priscos (take away, 25 g) 
+      price1: 2,50€
+  
