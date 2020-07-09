@@ -15,6 +15,15 @@ collections: #====================| POSTS |=====================================
     editor:
       preview: true
     files:
+      - name: "snacks"
+        label: "Snacks"
+        file: "_data/snacks.yml"
+        description: Everything needed for the index
+        fields:
+          - label: "Ingles" # ---| ingles |---
+            name: en
+            widget: "object"
+            fields:
       # ---| INDEX |---
       # - name: "ementa"
       #   label: "Ementa"
@@ -206,151 +215,151 @@ collections: #====================| POSTS |=====================================
       #                 - { label: "Produto 3", name: "desc3", widget: "string" }
       #                 - { label: "Preço do produto 3", name: "price3", widget: "string" }
       # ---| SNACKS |---
-      - name: "snacks"
-        label: "Snacks"
-        file: "_data/snacks.yml"
-        description: Everything needed for the index
-        fields:
-          - label: "Ingles" # ---| ingles |---
-            name: en
-            widget: "object"
-            fields:
-              - label: "Snacks"
-                name: snacks
-                widget: object
-                fields:
-                  - { label: "Titulo", name: "title", widget: "string" }
-                  - label: "Sandes frio"
-                    name: cold_sandwich
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - { label: "Produto 1", name: "desc1", widget: "string" }
-                      - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                      - { label: "Produto 2", name: "desc2", widget: "string" }
-                      - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                      - { label: "Produto 3", name: "desc3", widget: "string" }
-                      - { label: "Preço do produto 3", name: "price3", widget: "string" }
-          #         - label: "Sandes quente"
-          #           name: hot_sandwich
-          #           widget: object
-          #           fields:
-          #             - { label: "Titulo", name: "title", widget: "string" }
-          #             - { label: "Produto 1", name: "desc1", widget: "string" }
-          #             - { label: "Preço do produto 1", name: "price1", widget: "string" }
-          #             - { label: "Produto 2", name: "desc2", widget: "string" }
-          #             - { label: "Preço do produto 2", name: "price2", widget: "string" }
-          #             - { label: "Produto 3", name: "desc3", widget: "string" }
-          #             - { label: "Preço do produto 3", name: "price3", widget: "string" }
-          #             - { label: "Produto 4", name: "desc4", widget: "string" }
-          #             - { label: "Preço do produto 4", name: "price4", widget: "string" }
-          #             - { label: "Produto 5", name: "desc5", widget: "string" }
-          #             - { label: "Preço do produto 5", name: "price5", widget: "string" }
-          #             - { label: "Produto 6", name: "desc6", widget: "string" }
-          #             - { label: "Preço do produto 6", name: "price6", widget: "string" }
-          #         - label: "Tábuas"
-          #           name: platters
-          #           widget: object
-          #           fields:
-          #             - { label: "Titulo", name: "title", widget: "string" }
-          #             - { label: "Produto 1", name: "desc1", widget: "string" }
-          #             - { label: "Preço do produto 1", name: "price1", widget: "string" }
-          #             - { label: "Produto 2", name: "desc2", widget: "string" }
-          #             - { label: "Preço do produto 2", name: "price2", widget: "string" }
-          #             - { label: "Produto 3", name: "desc3", widget: "string" }
-          #             - { label: "Preço do produto 3", name: "price3", widget: "string" }
-          #         - label: "Gelado"
-          #           name: ice_cream
-          #           widget: object
-          #           fields:
-          #             - { label: "Titulo", name: "title", widget: "string" }
-          #             - { label: "Produto 1", name: "desc1", widget: "string" }
-          #             - { label: "Preço do produto 1", name: "price1", widget: "string" }
-          #             - { label: "Produto 2", name: "desc2", widget: "string" }
-          #             - { label: "Preço do produto 2", name: "price2", widget: "string" }
-          #             - { label: "Produto 3", name: "desc3", widget: "string" }
-          #             - { label: "Preço do produto 3", name: "price3", widget: "string" }
-          #             - { label: "Produto 4", name: "desc4", widget: "string" }
-          #             - { label: "Preço do produto 4", name: "price4", widget: "string" }
-          #             - { label: "Produto 5", name: "desc5", widget: "string" }
-          #             - { label: "Preço do produto 5", name: "price5", widget: "string" }
-          #         - label: "Puddim"
-          #           name: pudding
-          #           widget: object
-          #           fields:
-          #             - { label: "Titulo", name: "title", widget: "string" }
-          #             - { label: "Produto 1", name: "desc1", widget: "string" }
-          #             - { label: "Preço do produto 1", name: "price1", widget: "string" }
-          # - label: "Portugues" 
-          #   name: pt
-          #   widget: "object"
-          #   fields: 
-          #     - label: "Snacks"
-          #       name: snacks
-          #       widget: object
-          #       fields:
-          #         - { label: "Titulo", name: "title", widget: "string" }
-          #         - label: "Sandes frio"
-          #           name: cold_sandwich
-          #           widget: object
-          #           fields:
-          #             - { label: "Titulo", name: "title", widget: "string" }
-          #             - { label: "Produto 1", name: "desc1", widget: "string" }
-          #             - { label: "Preço do produto 1", name: "price1", widget: "string" }
-          #             - { label: "Produto 2", name: "desc2", widget: "string" }
-          #             - { label: "Preço do produto 2", name: "price2", widget: "string" }
-          #             - { label: "Produto 3", name: "desc3", widget: "string" }
-          #             - { label: "Preço do produto 3", name: "price3", widget: "string" }
-          #         - label: "Sandes quente"
-          #           name: hot_sandwich
-          #           widget: object
-          #           fields:
-          #             - { label: "Titulo", name: "title", widget: "string" }
-          #             - { label: "Produto 1", name: "desc1", widget: "string" }
-          #             - { label: "Preço do produto 1", name: "price1", widget: "string" }
-          #             - { label: "Produto 2", name: "desc2", widget: "string" }
-          #             - { label: "Preço do produto 2", name: "price2", widget: "string" }
-          #             - { label: "Produto 3", name: "desc3", widget: "string" }
-          #             - { label: "Preço do produto 3", name: "price3", widget: "string" }
-          #             - { label: "Produto 4", name: "desc4", widget: "string" }
-          #             - { label: "Preço do produto 4", name: "price4", widget: "string" }
-          #             - { label: "Produto 5", name: "desc5", widget: "string" }
-          #             - { label: "Preço do produto 5", name: "price5", widget: "string" }
-          #             - { label: "Produto 6", name: "desc6", widget: "string" }
-          #             - { label: "Preço do produto 6", name: "price6", widget: "string" }
-          #         - label: "Tábuas"
-          #           name: platters
-          #           widget: object
-          #           fields:
-          #             - { label: "Titulo", name: "title", widget: "string" }
-          #             - { label: "Produto 1", name: "desc1", widget: "string" }
-          #             - { label: "Preço do produto 1", name: "price1", widget: "string" }
-          #             - { label: "Produto 2", name: "desc2", widget: "string" }
-          #             - { label: "Preço do produto 2", name: "price2", widget: "string" }
-          #             - { label: "Produto 3", name: "desc3", widget: "string" }
-          #             - { label: "Preço do produto 3", name: "price3", widget: "string" }
-          #         - label: "Gelado"
-          #           name: ice_cream
-          #           widget: object
-          #           fields:
-          #             - { label: "Titulo", name: "title", widget: "string" }
-          #             - { label: "Produto 1", name: "desc1", widget: "string" }
-          #             - { label: "Preço do produto 1", name: "price1", widget: "string" }
-          #             - { label: "Produto 2", name: "desc2", widget: "string" }
-          #             - { label: "Preço do produto 2", name: "price2", widget: "string" }
-          #             - { label: "Produto 3", name: "desc3", widget: "string" }
-          #             - { label: "Preço do produto 3", name: "price3", widget: "string" }
-          #             - { label: "Produto 4", name: "desc4", widget: "string" }
-          #             - { label: "Preço do produto 4", name: "price4", widget: "string" }
-          #             - { label: "Produto 5", name: "desc5", widget: "string" }
-          #             - { label: "Preço do produto 5", name: "price5", widget: "string" }
-          #         - label: "Puddim"
-          #           name: pudding
-          #           widget: object
-          #           fields:
-          #             - { label: "Titulo", name: "title", widget: "string" }
-          #             - { label: "Produto 1", name: "desc1", widget: "string" }
-          #             - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      # - name: "snacks"
+      #   label: "Snacks"
+      #   file: "_data/snacks.yml"
+      #   description: Everything needed for the index
+      #   fields:
+      #     - label: "Ingles" # ---| ingles |---
+      #       name: en
+      #       widget: "object"
+      #       fields:
+      #         - label: "Snacks"
+      #           name: snacks
+      #           widget: object
+      #           fields:
+      #             - { label: "Titulo", name: "title", widget: "string" }
+      #             - label: "Sandes frio"
+      #               name: cold_sandwich
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                 - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                 - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                 - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                 - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                 - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #             - label: "Sandes quente"
+      #               name: hot_sandwich
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                 - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                 - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                 - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                 - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                 - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                 - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                 - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                 - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                 - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #                 - { label: "Produto 6", name: "desc6", widget: "string" }
+      #                 - { label: "Preço do produto 6", name: "price6", widget: "string" }
+      #             - label: "Tábuas"
+      #               name: platters
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                 - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                 - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                 - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                 - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                 - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #             - label: "Gelado"
+      #               name: ice_cream
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                 - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                 - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                 - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                 - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                 - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                 - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                 - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                 - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                 - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #             - label: "Puddim"
+      #               name: pudding
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                 - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #     - label: "Portugues" 
+      #       name: pt
+      #       widget: "object"
+      #       fields: 
+      #         - label: "Snacks"
+      #           name: snacks
+      #           widget: object
+      #           fields:
+      #             - { label: "Titulo", name: "title", widget: "string" }
+      #             - label: "Sandes frio"
+      #               name: cold_sandwich
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                 - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                 - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                 - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                 - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                 - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #             - label: "Sandes quente"
+      #               name: hot_sandwich
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                 - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                 - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                 - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                 - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                 - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                 - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                 - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                 - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                 - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #                 - { label: "Produto 6", name: "desc6", widget: "string" }
+      #                 - { label: "Preço do produto 6", name: "price6", widget: "string" }
+      #             - label: "Tábuas"
+      #               name: platters
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                 - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                 - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                 - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                 - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                 - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #             - label: "Gelado"
+      #               name: ice_cream
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                 - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                 - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                 - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                 - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                 - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                 - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                 - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                 - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                 - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #             - label: "Puddim"
+      #               name: pudding
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                 - { label: "Preço do produto 1", name: "price1", widget: "string" }
       # # ---| BEBIDAS |--- 
       # - name: "bebidas"
       #   label: "Bebidas"
