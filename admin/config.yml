@@ -231,1235 +231,1235 @@ collections: #====================| POSTS |=====================================
                       - { label: "Preço do produto 2", name: "price2", widget: "string" }
                       - { label: "Produto 3", name: "desc3", widget: "string" }
                       - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                  - label: "Sandes quente"
-                    name: hot_sandwich
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - { label: "Produto 1", name: "desc1", widget: "string" }
-                      - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                      - { label: "Produto 2", name: "desc2", widget: "string" }
-                      - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                      - { label: "Produto 3", name: "desc3", widget: "string" }
-                      - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                      - { label: "Produto 4", name: "desc4", widget: "string" }
-                      - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                      - { label: "Produto 5", name: "desc5", widget: "string" }
-                      - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                      - { label: "Produto 6", name: "desc6", widget: "string" }
-                      - { label: "Preço do produto 6", name: "price6", widget: "string" }
-                  - label: "Tábuas"
-                    name: platters
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - { label: "Produto 1", name: "desc1", widget: "string" }
-                      - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                      - { label: "Produto 2", name: "desc2", widget: "string" }
-                      - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                      - { label: "Produto 3", name: "desc3", widget: "string" }
-                      - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                  - label: "Gelado"
-                    name: ice_cream
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - { label: "Produto 1", name: "desc1", widget: "string" }
-                      - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                      - { label: "Produto 2", name: "desc2", widget: "string" }
-                      - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                      - { label: "Produto 3", name: "desc3", widget: "string" }
-                      - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                      - { label: "Produto 4", name: "desc4", widget: "string" }
-                      - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                      - { label: "Produto 5", name: "desc5", widget: "string" }
-                      - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                  - label: "Puddim"
-                    name: pudding
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - { label: "Produto 1", name: "desc1", widget: "string" }
-                      - { label: "Preço do produto 1", name: "price1", widget: "string" }
-          - label: "Portugues" 
-            name: pt
-            widget: "object"
-            fields: 
-              - label: "Snacks"
-                name: snacks
-                widget: object
-                fields:
-                  - { label: "Titulo", name: "title", widget: "string" }
-                  - label: "Sandes frio"
-                    name: cold_sandwich
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - { label: "Produto 1", name: "desc1", widget: "string" }
-                      - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                      - { label: "Produto 2", name: "desc2", widget: "string" }
-                      - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                      - { label: "Produto 3", name: "desc3", widget: "string" }
-                      - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                  - label: "Sandes quente"
-                    name: hot_sandwich
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - { label: "Produto 1", name: "desc1", widget: "string" }
-                      - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                      - { label: "Produto 2", name: "desc2", widget: "string" }
-                      - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                      - { label: "Produto 3", name: "desc3", widget: "string" }
-                      - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                      - { label: "Produto 4", name: "desc4", widget: "string" }
-                      - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                      - { label: "Produto 5", name: "desc5", widget: "string" }
-                      - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                      - { label: "Produto 6", name: "desc6", widget: "string" }
-                      - { label: "Preço do produto 6", name: "price6", widget: "string" }
-                  - label: "Tábuas"
-                    name: platters
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - { label: "Produto 1", name: "desc1", widget: "string" }
-                      - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                      - { label: "Produto 2", name: "desc2", widget: "string" }
-                      - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                      - { label: "Produto 3", name: "desc3", widget: "string" }
-                      - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                  - label: "Gelado"
-                    name: ice_cream
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - { label: "Produto 1", name: "desc1", widget: "string" }
-                      - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                      - { label: "Produto 2", name: "desc2", widget: "string" }
-                      - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                      - { label: "Produto 3", name: "desc3", widget: "string" }
-                      - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                      - { label: "Produto 4", name: "desc4", widget: "string" }
-                      - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                      - { label: "Produto 5", name: "desc5", widget: "string" }
-                      - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                  - label: "Puddim"
-                    name: pudding
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - { label: "Produto 1", name: "desc1", widget: "string" }
-                      - { label: "Preço do produto 1", name: "price1", widget: "string" }
-      # ---| BEBIDAS |--- 
-      - name: "bebidas"
-        label: "Bebidas"
-        file: "_data/bebidas.yml"
-        description: Everything needed for the index
-        fields:
-          - label: "Ingles" # ---| ingles |---
-            name: en
-            widget: "object"
-            fields:
-              - label: "Bebidas"
-                name: beverage
-                widget: object
-                fields:
-                  - { label: "Titulo", name: "title", widget: "string" }
-                  - label: "Cafés"
-                    name: coffees
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - { label: "Produto 1", name: "desc1", widget: "string" }
-                      - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                      - { label: "Produto 2", name: "desc2", widget: "string" }
-                      - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                      - { label: "Produto 3", name: "desc3", widget: "string" }
-                      - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                      - { label: "Produto 4", name: "desc4", widget: "string" }
-                      - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                      - { label: "Produto 5", name: "desc5", widget: "string" }
-                      - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                      - { label: "Produto 6", name: "desc6", widget: "string" }
-                      - { label: "Preço do produto 6", name: "price6", widget: "string" }
-                      - { label: "Produto 7", name: "desc7", widget: "string" }
-                      - { label: "Preço do produto 7", name: "price7", widget: "string" }
-                      - { label: "Produto 8", name: "desc8", widget: "string" }
-                      - { label: "Preço do produto 8", name: "price8", widget: "string" }
-                      - { label: "Produto 9", name: "desc9", widget: "string" }
-                      - { label: "Preço do produto 9", name: "price9", widget: "string" }
-                      - { label: "Produto 10", name: "desc10", widget: "string" }
-                      - { label: "Preço do produto 10", name: "price10", widget: "string" }
-                      - { label: "Produto 11", name: "desc11", widget: "string" }
-                      - { label: "Preço do produto 11", name: "price11", widget: "string" }
-                      - { label: "Produto 12", name: "desc12", widget: "string" }
-                      - { label: "Preço do produto 12", name: "price12", widget: "string" }
-                      - { label: "Produto 13", name: "desc13", widget: "string" }
-                      - { label: "Preço do produto 13", name: "price13", widget: "string" }
-                      - { label: "Produto 14", name: "desc14", widget: "string" }
-                      - { label: "Preço do produto 14", name: "price14", widget: "string" }
-                      - { label: "Produto 15", name: "desc15", widget: "string" }
-                      - { label: "Preço do produto 15", name: "price15", widget: "string" }
-                  - label: "Batidos"
-                    name: shakes
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - { label: "Produto 1", name: "desc1", widget: "string" }
-                      - { label: "Preço do produto 1", name: "price", widget: "string" }
-                  - label: "Sem Alcool"
-                    name: non_alcohol
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - { label: "Produto 1", name: "desc1", widget: "string" }
-                      - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                      - { label: "Produto 2", name: "desc2", widget: "string" }
-                      - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                      - { label: "Produto 3", name: "desc3", widget: "string" }
-                      - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                      - { label: "Produto 4", name: "desc4", widget: "string" }
-                      - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                      - { label: "Produto 5", name: "desc5", widget: "string" }
-                      - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                      - { label: "Produto 6", name: "desc6", widget: "string" }
-                      - { label: "Preço do produto 6", name: "price6", widget: "string" }
-                      - { label: "Produto 7", name: "desc7", widget: "string" }
-                      - { label: "Preço do produto 7", name: "price7", widget: "string" }
-                      - { label: "Produto 8", name: "desc8", widget: "string" }
-                      - { label: "Preço do produto 8", name: "price8", widget: "string" }
-                      - { label: "Produto 9", name: "desc9", widget: "string" }
-                      - { label: "Preço do produto 9", name: "price9", widget: "string" }
-                      - { label: "Produto 10", name: "desc10", widget: "string" }
-                      - { label: "Preço do produto 10", name: "price10", widget: "string" }
-                      - { label: "Produto 11", name: "desc11", widget: "string" }
-                      - { label: "Preço do produto 11", name: "price11", widget: "string" }
-                  - label: "Alcool"
-                    name: alcohol
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - label: "Cervejas"
-                        name: beers
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                          - { label: "Produto 4", name: "desc4", widget: "string" }
-                          - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                          - { label: "Produto 5", name: "desc5", widget: "string" }
-                          - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                          - { label: "Produto 6", name: "desc6", widget: "string" }
-                          - { label: "Preço do produto 6", name: "price6", widget: "string" }
-                          - { label: "Produto 7", name: "desc7", widget: "string" }
-                          - { label: "Preço do produto 7", name: "price7", widget: "string" }
-                          - { label: "Produto 8", name: "desc8", widget: "string" }
-                          - { label: "Preço do produto 8", name: "price8", widget: "string" }
-                      - label: "Sangria"
-                        name: sangria
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                      - label: "Aperitifs"
-                        name: aperitifs
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                          - { label: "Produto 4", name: "desc4", widget: "string" }
-                          - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                          - { label: "Produto 5", name: "desc5", widget: "string" }
-                          - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                      - label: "Vinhos"
-                        name: wines
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                          - { label: "Produto 4", name: "desc4", widget: "string" }
-                          - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                          - { label: "Produto 5", name: "desc5", widget: "string" }
-                          - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                          - { label: "Produto 6", name: "desc6", widget: "string" }
-                          - { label: "Preço do produto 6", name: "price6", widget: "string" }
-                          - { label: "Produto 7", name: "desc7", widget: "string" }
-                          - { label: "Preço do produto 7", name: "price7", widget: "string" }
-                          - { label: "Produto 8", name: "desc8", widget: "string" }
-                          - { label: "Preço do produto 8", name: "price8", widget: "string" }
-                          - { label: "Produto 9", name: "desc9", widget: "string" }
-                          - { label: "Preço do produto 9", name: "price9", widget: "string" }
-                          - { label: "Produto 10", name: "desc10", widget: "string" }
-                          - { label: "Preço do produto 10", name: "price10", widget: "string" }
-                          - { label: "Produto 11", name: "desc11", widget: "string" }
-                          - { label: "Preço do produto 11", name: "price11", widget: "string" }
-                      - label: "Licores"
-                        name: liqueurs
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                          - { label: "Produto 4", name: "desc4", widget: "string" }
-                          - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                          - { label: "Produto 5", name: "desc5", widget: "string" }
-                          - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                          - { label: "Produto 6", name: "desc6", widget: "string" }
-                          - { label: "Preço do produto 6", name: "price6", widget: "string" }
-                          - { label: "Produto 7", name: "desc7", widget: "string" }
-                          - { label: "Preço do produto 7", name: "price7", widget: "string" }
-                          - { label: "Produto 8", name: "desc8", widget: "string" }
-                          - { label: "Preço do produto 8", name: "price8", widget: "string" }
-                          - { label: "Produto 9", name: "desc9", widget: "string" }
-                          - { label: "Preço do produto 9", name: "price9", widget: "string" }
-                      - label: "GIN"
-                        name: gin
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                          - { label: "Produto 4", name: "desc4", widget: "string" }
-                          - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                          - { label: "Produto 5", name: "desc5", widget: "string" }
-                          - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                          - { label: "Produto 6", name: "desc6", widget: "string" }
-                          - { label: "Preço do produto 6", name: "price6", widget: "string" }
-                          - { label: "Produto 7", name: "desc7", widget: "string" }
-                          - { label: "Preço do produto 7", name: "price7", widget: "string" }
-                          - { label: "Produto 8", name: "desc8", widget: "string" }
-                          - { label: "Preço do produto 8", name: "price8", widget: "string" }
-                          - { label: "Produto 9", name: "desc9", widget: "string" }
-                          - { label: "Preço do produto 9", name: "price9", widget: "string" }
-                          - { label: "Produto 10", name: "desc10", widget: "string" }
-                          - { label: "Preço do produto 10", name: "price10", widget: "string" }
-                          - { label: "Produto 11", name: "desc11", widget: "string" }
-                          - { label: "Preço do produto 11", name: "price11", widget: "string" }
-                          - { label: "Produto 12", name: "desc12", widget: "string" }
-                          - { label: "Preço do produto 12", name: "price12", widget: "string" }
-                      - label: "Vodka / Rum / Tequila"
-                        name: vodka
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                          - { label: "Produto 4", name: "desc4", widget: "string" }
-                          - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                          - { label: "Produto 5", name: "desc5", widget: "string" }
-                          - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                          - { label: "Produto 6", name: "desc6", widget: "string" }
-                          - { label: "Preço do produto 6", name: "price6", widget: "string" }
-                          - { label: "Produto 7", name: "desc7", widget: "string" }
-                          - { label: "Preço do produto 7", name: "price7", widget: "string" }
-                          - { label: "Produto 8", name: "desc8", widget: "string" }
-                          - { label: "Preço do produto 8", name: "price8", widget: "string" }
-                      - label: "Whisky Novo"
-                        name: whisky_new
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                      - label: "Whisky Velho"
-                        name: whisky_old
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                          - { label: "Produto 4", name: "desc4", widget: "string" }
-                          - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                          - { label: "Produto 5", name: "desc5", widget: "string" }
-                          - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                      - label: "Malt"
-                        name: malt
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                      - label: "Irish"
-                        name: irish
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                      - label: "Americano"
-                        name: american
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                      - label: "Aguardente / Brandy / Cognac / Armagnac"
-                        name: aguardente
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                          - { label: "Produto 4", name: "desc4", widget: "string" }
-                          - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                          - { label: "Produto 5", name: "desc5", widget: "string" }
-                          - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                          - { label: "Produto 6", name: "desc6", widget: "string" }
-                          - { label: "Preço do produto 6", name: "price6", widget: "string" }
-                          - { label: "Produto 7", name: "desc7", widget: "string" }
-                          - { label: "Preço do produto 7", name: "price7", widget: "string" }
-                          - { label: "Produto 8", name: "desc8", widget: "string" }
-                          - { label: "Preço do produto 8", name: "price8", widget: "string" }
-                      - label: "Cocktails de Alcool"
-                        name: cocktails_alcohol
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                          - { label: "Produto 4", name: "desc4", widget: "string" }
-                          - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                          - { label: "Produto 5", name: "desc5", widget: "string" }
-                          - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                          - { label: "Produto 6", name: "desc6", widget: "string" }
-                          - { label: "Preço do produto 6", name: "price6", widget: "string" }
-                          - { label: "Produto 7", name: "desc7", widget: "string" }
-                          - { label: "Preço do produto 7", name: "price7", widget: "string" }
-                          - { label: "Produto 8", name: "desc8", widget: "string" }
-                          - { label: "Preço do produto 8", name: "price8", widget: "string" }
-                          - { label: "Produto 9", name: "desc9", widget: "string" }
-                          - { label: "Preço do produto 9", name: "price9", widget: "string" }
-                      - label: "Cocktails sem Alcool"
-                        name: cocktails_non_alcohol
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-          - label: "Portugues" 
-            name: pt
-            widget: "object"
-            fields: 
-              - label: "Bebidas"
-                name: beverage
-                widget: object
-                fields:
-                  - { label: "Titulo", name: "title", widget: "string" }
-                  - label: "Cafés"
-                    name: coffees
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - { label: "Produto 1", name: "desc1", widget: "string" }
-                      - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                      - { label: "Produto 2", name: "desc2", widget: "string" }
-                      - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                      - { label: "Produto 3", name: "desc3", widget: "string" }
-                      - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                      - { label: "Produto 4", name: "desc4", widget: "string" }
-                      - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                      - { label: "Produto 5", name: "desc5", widget: "string" }
-                      - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                      - { label: "Produto 6", name: "desc6", widget: "string" }
-                      - { label: "Preço do produto 6", name: "price6", widget: "string" }
-                      - { label: "Produto 7", name: "desc7", widget: "string" }
-                      - { label: "Preço do produto 7", name: "price7", widget: "string" }
-                      - { label: "Produto 8", name: "desc8", widget: "string" }
-                      - { label: "Preço do produto 8", name: "price8", widget: "string" }
-                      - { label: "Produto 9", name: "desc9", widget: "string" }
-                      - { label: "Preço do produto 9", name: "price9", widget: "string" }
-                      - { label: "Produto 10", name: "desc10", widget: "string" }
-                      - { label: "Preço do produto 10", name: "price10", widget: "string" }
-                      - { label: "Produto 11", name: "desc11", widget: "string" }
-                      - { label: "Preço do produto 11", name: "price11", widget: "string" }
-                      - { label: "Produto 12", name: "desc12", widget: "string" }
-                      - { label: "Preço do produto 12", name: "price12", widget: "string" }
-                      - { label: "Produto 13", name: "desc13", widget: "string" }
-                      - { label: "Preço do produto 13", name: "price13", widget: "string" }
-                      - { label: "Produto 14", name: "desc14", widget: "string" }
-                      - { label: "Preço do produto 14", name: "price14", widget: "string" }
-                      - { label: "Produto 15", name: "desc15", widget: "string" }
-                      - { label: "Preço do produto 15", name: "price15", widget: "string" }
-                  - label: "Batidos"
-                    name: shakes
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - { label: "Produto 1", name: "desc1", widget: "string" }
-                      - { label: "Preço do produto 1", name: "price", widget: "string" }
-                  - label: "Sem Alcool"
-                    name: non_alcohol
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - { label: "Produto 1", name: "desc1", widget: "string" }
-                      - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                      - { label: "Produto 2", name: "desc2", widget: "string" }
-                      - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                      - { label: "Produto 3", name: "desc3", widget: "string" }
-                      - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                      - { label: "Produto 4", name: "desc4", widget: "string" }
-                      - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                      - { label: "Produto 5", name: "desc5", widget: "string" }
-                      - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                      - { label: "Produto 6", name: "desc6", widget: "string" }
-                      - { label: "Preço do produto 6", name: "price6", widget: "string" }
-                      - { label: "Produto 7", name: "desc7", widget: "string" }
-                      - { label: "Preço do produto 7", name: "price7", widget: "string" }
-                      - { label: "Produto 8", name: "desc8", widget: "string" }
-                      - { label: "Preço do produto 8", name: "price8", widget: "string" }
-                      - { label: "Produto 9", name: "desc9", widget: "string" }
-                      - { label: "Preço do produto 9", name: "price9", widget: "string" }
-                      - { label: "Produto 10", name: "desc10", widget: "string" }
-                      - { label: "Preço do produto 10", name: "price10", widget: "string" }
-                      - { label: "Produto 11", name: "desc11", widget: "string" }
-                      - { label: "Preço do produto 11", name: "price11", widget: "string" }
-                  - label: "Alcool"
-                    name: alcohol
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - label: "Cervejas"
-                        name: beers
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                          - { label: "Produto 4", name: "desc4", widget: "string" }
-                          - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                          - { label: "Produto 5", name: "desc5", widget: "string" }
-                          - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                          - { label: "Produto 6", name: "desc6", widget: "string" }
-                          - { label: "Preço do produto 6", name: "price6", widget: "string" }
-                          - { label: "Produto 7", name: "desc7", widget: "string" }
-                          - { label: "Preço do produto 7", name: "price7", widget: "string" }
-                          - { label: "Produto 8", name: "desc8", widget: "string" }
-                          - { label: "Preço do produto 8", name: "price8", widget: "string" }
-                      - label: "Sangria"
-                        name: sangria
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                      - label: "Aperitifs"
-                        name: aperitifs
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                          - { label: "Produto 4", name: "desc4", widget: "string" }
-                          - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                          - { label: "Produto 5", name: "desc5", widget: "string" }
-                          - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                      - label: "Vinhos"
-                        name: wines
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                          - { label: "Produto 4", name: "desc4", widget: "string" }
-                          - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                          - { label: "Produto 5", name: "desc5", widget: "string" }
-                          - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                          - { label: "Produto 6", name: "desc6", widget: "string" }
-                          - { label: "Preço do produto 6", name: "price6", widget: "string" }
-                          - { label: "Produto 7", name: "desc7", widget: "string" }
-                          - { label: "Preço do produto 7", name: "price7", widget: "string" }
-                          - { label: "Produto 8", name: "desc8", widget: "string" }
-                          - { label: "Preço do produto 8", name: "price8", widget: "string" }
-                          - { label: "Produto 9", name: "desc9", widget: "string" }
-                          - { label: "Preço do produto 9", name: "price9", widget: "string" }
-                          - { label: "Produto 10", name: "desc10", widget: "string" }
-                          - { label: "Preço do produto 10", name: "price10", widget: "string" }
-                          - { label: "Produto 11", name: "desc11", widget: "string" }
-                          - { label: "Preço do produto 11", name: "price11", widget: "string" }
-                      - label: "Licores"
-                        name: liqueurs
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                          - { label: "Produto 4", name: "desc4", widget: "string" }
-                          - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                          - { label: "Produto 5", name: "desc5", widget: "string" }
-                          - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                          - { label: "Produto 6", name: "desc6", widget: "string" }
-                          - { label: "Preço do produto 6", name: "price6", widget: "string" }
-                          - { label: "Produto 7", name: "desc7", widget: "string" }
-                          - { label: "Preço do produto 7", name: "price7", widget: "string" }
-                          - { label: "Produto 8", name: "desc8", widget: "string" }
-                          - { label: "Preço do produto 8", name: "price8", widget: "string" }
-                          - { label: "Produto 9", name: "desc9", widget: "string" }
-                          - { label: "Preço do produto 9", name: "price9", widget: "string" }
-                      - label: "GIN"
-                        name: gin
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                          - { label: "Produto 4", name: "desc4", widget: "string" }
-                          - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                          - { label: "Produto 5", name: "desc5", widget: "string" }
-                          - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                          - { label: "Produto 6", name: "desc6", widget: "string" }
-                          - { label: "Preço do produto 6", name: "price6", widget: "string" }
-                          - { label: "Produto 7", name: "desc7", widget: "string" }
-                          - { label: "Preço do produto 7", name: "price7", widget: "string" }
-                          - { label: "Produto 8", name: "desc8", widget: "string" }
-                          - { label: "Preço do produto 8", name: "price8", widget: "string" }
-                          - { label: "Produto 9", name: "desc9", widget: "string" }
-                          - { label: "Preço do produto 9", name: "price9", widget: "string" }
-                          - { label: "Produto 10", name: "desc10", widget: "string" }
-                          - { label: "Preço do produto 10", name: "price10", widget: "string" }
-                          - { label: "Produto 11", name: "desc11", widget: "string" }
-                          - { label: "Preço do produto 11", name: "price11", widget: "string" }
-                          - { label: "Produto 12", name: "desc12", widget: "string" }
-                          - { label: "Preço do produto 12", name: "price12", widget: "string" }
-                      - label: "Vodka / Rum / Tequila"
-                        name: vodka
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                          - { label: "Produto 4", name: "desc4", widget: "string" }
-                          - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                          - { label: "Produto 5", name: "desc5", widget: "string" }
-                          - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                          - { label: "Produto 6", name: "desc6", widget: "string" }
-                          - { label: "Preço do produto 6", name: "price6", widget: "string" }
-                          - { label: "Produto 7", name: "desc7", widget: "string" }
-                          - { label: "Preço do produto 7", name: "price7", widget: "string" }
-                          - { label: "Produto 8", name: "desc8", widget: "string" }
-                          - { label: "Preço do produto 8", name: "price8", widget: "string" }
-                      - label: "Whisky Novo"
-                        name: whisky_new
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                      - label: "Whisky Velho"
-                        name: whisky_old
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                          - { label: "Produto 4", name: "desc4", widget: "string" }
-                          - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                          - { label: "Produto 5", name: "desc5", widget: "string" }
-                          - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                      - label: "Malt"
-                        name: malt
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                      - label: "Irish"
-                        name: irish
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                      - label: "Americano"
-                        name: american
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                      - label: "Aguardente / Brandy / Cognac / Armagnac"
-                        name: aguardente
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                          - { label: "Produto 4", name: "desc4", widget: "string" }
-                          - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                          - { label: "Produto 5", name: "desc5", widget: "string" }
-                          - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                          - { label: "Produto 6", name: "desc6", widget: "string" }
-                          - { label: "Preço do produto 6", name: "price6", widget: "string" }
-                          - { label: "Produto 7", name: "desc7", widget: "string" }
-                          - { label: "Preço do produto 7", name: "price7", widget: "string" }
-                          - { label: "Produto 8", name: "desc8", widget: "string" }
-                          - { label: "Preço do produto 8", name: "price8", widget: "string" }
-                      - label: "Cocktails de Alcool"
-                        name: cocktails_alcohol
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                          - { label: "Produto 4", name: "desc4", widget: "string" }
-                          - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                          - { label: "Produto 5", name: "desc5", widget: "string" }
-                          - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                          - { label: "Produto 6", name: "desc6", widget: "string" }
-                          - { label: "Preço do produto 6", name: "price6", widget: "string" }
-                          - { label: "Produto 7", name: "desc7", widget: "string" }
-                          - { label: "Preço do produto 7", name: "price7", widget: "string" }
-                          - { label: "Produto 8", name: "desc8", widget: "string" }
-                          - { label: "Preço do produto 8", name: "price8", widget: "string" }
-                          - { label: "Produto 9", name: "desc9", widget: "string" }
-                          - { label: "Preço do produto 9", name: "price9", widget: "string" }
-                      - label: "Cocktails sem Alcool"
-                        name: cocktails_non_alcohol
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-      # ---| VINHOS |---
-      - name: "wines"
-        label: "Vinhos"
-        file: "_data/wines.yml"
-        description: Everything needed for the index
-        fields:
-          - label: "Ingles" # ---| ingles |---
-            name: en
-            widget: "object"
-            fields:
-              - label: "Vinhos"
-                name: vinhos
-                widget: object
-                fields:
-                  - { label: "Titulo", name: "title", widget: "string" }
-                  - label: "Vinhos Verde"
-                    name: vinhos_verde
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - label: "Branco"
-                        name: white_wine
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                          - { label: "Produto 4", name: "desc4", widget: "string" }
-                          - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                          - { label: "Produto 5", name: "desc5", widget: "string" }
-                          - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                          - { label: "Produto 6", name: "desc6", widget: "string" }
-                          - { label: "Preço do produto 6", name: "price6", widget: "string" }
-                      - label: "Tinto"
-                        name: tinto
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                  - label: "Dao"
-                    name: dao
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - label: "Branco"
-                        name: white_wine
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                      - label: "Tinto"
-                        name: tinto
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                  - label: "Douro"
-                    name: douro
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - label: "Branco"
-                        name: white_wine
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                          - { label: "Produto 4", name: "desc4", widget: "string" }
-                          - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                          - { label: "Produto 5", name: "desc5", widget: "string" }
-                          - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                      - label: "Tinto"
-                        name: tinto
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                          - { label: "Produto 4", name: "desc4", widget: "string" }
-                          - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                          - { label: "Produto 5", name: "desc5", widget: "string" }
-                          - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                  - label: "Bairrada"
-                    name: bairrada
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - label: "Branco"
-                        name: white_wine
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                      - label: "Tinto"
-                        name: tinto
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                  - label: "Beiras"
-                    name: beiras
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - label: "Branco"
-                        name: white_wine
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                      - label: "Tinto"
-                        name: tinto
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                  - label: "Alentejo"
-                    name: alentejo
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - label: "Branco"
-                        name: white_wine
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                          - { label: "Produto 4", name: "desc4", widget: "string" }
-                          - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                          - { label: "Produto 5", name: "desc5", widget: "string" }
-                          - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                      - label: "Tinto"
-                        name: tinto
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                          - { label: "Produto 4", name: "desc4", widget: "string" }
-                          - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                          - { label: "Produto 5", name: "desc5", widget: "string" }
-                          - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                  - label: "Rosé"
-                    name: rose
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - { label: "Produto 1", name: "desc1", widget: "string" }
-                      - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                      - { label: "Produto 2", name: "desc2", widget: "string" }
-                      - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                      - { label: "Produto 3", name: "desc3", widget: "string" }
-                      - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                      - { label: "Produto 4", name: "desc4", widget: "string" }
-                      - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                  - label: "Espomantes"
-                    name: sparkling_wines
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - { label: "Produto 1", name: "desc1", widget: "string" }
-                      - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                      - { label: "Produto 2", name: "desc2", widget: "string" }
-                      - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                      - { label: "Produto 3", name: "desc3", widget: "string" }
-                      - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                      - { label: "Produto 4", name: "desc4", widget: "string" }
-                      - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                  - label: "Champanhe"
-                    name: champagne
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - { label: "Produto 1", name: "desc1", widget: "string" }
-                      - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                      - { label: "Produto 2", name: "desc2", widget: "string" }
-                      - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                      - { label: "Produto 3", name: "desc3", widget: "string" }
-                      - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                      - { label: "Produto 4", name: "desc4", widget: "string" }
-                      - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                      - { label: "Produto 5", name: "desc5", widget: "string" }
-                      - { label: "Preço do produto 5", name: "price5", widget: "string" }   
-          - label: "Portugues" 
-            name: pt
-            widget: "object"
-            fields: 
-              - label: "Vinhos"
-                name: vinhos
-                widget: object
-                fields:
-                  - { label: "Titulo", name: "title", widget: "string" }
-                  - label: "Vinhos Verde"
-                    name: vinhos_verde
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - label: "Branco"
-                        name: white_wine
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                          - { label: "Produto 4", name: "desc4", widget: "string" }
-                          - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                          - { label: "Produto 5", name: "desc5", widget: "string" }
-                          - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                          - { label: "Produto 6", name: "desc6", widget: "string" }
-                          - { label: "Preço do produto 6", name: "price6", widget: "string" }
-                      - label: "Tinto"
-                        name: tinto
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                  - label: "Dao"
-                    name: dao
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - label: "Branco"
-                        name: white_wine
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                      - label: "Tinto"
-                        name: tinto
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                  - label: "Douro"
-                    name: douro
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - label: "Branco"
-                        name: white_wine
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                          - { label: "Produto 4", name: "desc4", widget: "string" }
-                          - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                          - { label: "Produto 5", name: "desc5", widget: "string" }
-                          - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                      - label: "Tinto"
-                        name: tinto
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                          - { label: "Produto 4", name: "desc4", widget: "string" }
-                          - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                          - { label: "Produto 5", name: "desc5", widget: "string" }
-                          - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                  - label: "Bairrada"
-                    name: bairrada
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - label: "Branco"
-                        name: white_wine
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                      - label: "Tinto"
-                        name: tinto
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                  - label: "Beiras"
-                    name: beiras
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - label: "Branco"
-                        name: white_wine
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                      - label: "Tinto"
-                        name: tinto
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                  - label: "Alentejo"
-                    name: alentejo
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - label: "Branco"
-                        name: white_wine
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                          - { label: "Produto 4", name: "desc4", widget: "string" }
-                          - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                          - { label: "Produto 5", name: "desc5", widget: "string" }
-                          - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                      - label: "Tinto"
-                        name: tinto
-                        widget: object
-                        fields:
-                          - { label: "Titulo", name: "title", widget: "string" }
-                          - { label: "Produto 1", name: "desc1", widget: "string" }
-                          - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                          - { label: "Produto 2", name: "desc2", widget: "string" }
-                          - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                          - { label: "Produto 3", name: "desc3", widget: "string" }
-                          - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                          - { label: "Produto 4", name: "desc4", widget: "string" }
-                          - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                          - { label: "Produto 5", name: "desc5", widget: "string" }
-                          - { label: "Preço do produto 5", name: "price5", widget: "string" }
-                  - label: "Rosé"
-                    name: rose
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - { label: "Produto 1", name: "desc1", widget: "string" }
-                      - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                      - { label: "Produto 2", name: "desc2", widget: "string" }
-                      - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                      - { label: "Produto 3", name: "desc3", widget: "string" }
-                      - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                      - { label: "Produto 4", name: "desc4", widget: "string" }
-                      - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                  - label: "Espomantes"
-                    name: sparkling_wines
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - { label: "Produto 1", name: "desc1", widget: "string" }
-                      - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                      - { label: "Produto 2", name: "desc2", widget: "string" }
-                      - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                      - { label: "Produto 3", name: "desc3", widget: "string" }
-                      - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                      - { label: "Produto 4", name: "desc4", widget: "string" }
-                      - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                  - label: "Champanhe"
-                    name: champagne
-                    widget: object
-                    fields:
-                      - { label: "Titulo", name: "title", widget: "string" }
-                      - { label: "Produto 1", name: "desc1", widget: "string" }
-                      - { label: "Preço do produto 1", name: "price1", widget: "string" }
-                      - { label: "Produto 2", name: "desc2", widget: "string" }
-                      - { label: "Preço do produto 2", name: "price2", widget: "string" }
-                      - { label: "Produto 3", name: "desc3", widget: "string" }
-                      - { label: "Preço do produto 3", name: "price3", widget: "string" }
-                      - { label: "Produto 4", name: "desc4", widget: "string" }
-                      - { label: "Preço do produto 4", name: "price4", widget: "string" }
-                      - { label: "Produto 5", name: "desc5", widget: "string" }
-                      - { label: "Preço do produto 5", name: "price5", widget: "string" }       
+          #         - label: "Sandes quente"
+          #           name: hot_sandwich
+          #           widget: object
+          #           fields:
+          #             - { label: "Titulo", name: "title", widget: "string" }
+          #             - { label: "Produto 1", name: "desc1", widget: "string" }
+          #             - { label: "Preço do produto 1", name: "price1", widget: "string" }
+          #             - { label: "Produto 2", name: "desc2", widget: "string" }
+          #             - { label: "Preço do produto 2", name: "price2", widget: "string" }
+          #             - { label: "Produto 3", name: "desc3", widget: "string" }
+          #             - { label: "Preço do produto 3", name: "price3", widget: "string" }
+          #             - { label: "Produto 4", name: "desc4", widget: "string" }
+          #             - { label: "Preço do produto 4", name: "price4", widget: "string" }
+          #             - { label: "Produto 5", name: "desc5", widget: "string" }
+          #             - { label: "Preço do produto 5", name: "price5", widget: "string" }
+          #             - { label: "Produto 6", name: "desc6", widget: "string" }
+          #             - { label: "Preço do produto 6", name: "price6", widget: "string" }
+          #         - label: "Tábuas"
+          #           name: platters
+          #           widget: object
+          #           fields:
+          #             - { label: "Titulo", name: "title", widget: "string" }
+          #             - { label: "Produto 1", name: "desc1", widget: "string" }
+          #             - { label: "Preço do produto 1", name: "price1", widget: "string" }
+          #             - { label: "Produto 2", name: "desc2", widget: "string" }
+          #             - { label: "Preço do produto 2", name: "price2", widget: "string" }
+          #             - { label: "Produto 3", name: "desc3", widget: "string" }
+          #             - { label: "Preço do produto 3", name: "price3", widget: "string" }
+          #         - label: "Gelado"
+          #           name: ice_cream
+          #           widget: object
+          #           fields:
+          #             - { label: "Titulo", name: "title", widget: "string" }
+          #             - { label: "Produto 1", name: "desc1", widget: "string" }
+          #             - { label: "Preço do produto 1", name: "price1", widget: "string" }
+          #             - { label: "Produto 2", name: "desc2", widget: "string" }
+          #             - { label: "Preço do produto 2", name: "price2", widget: "string" }
+          #             - { label: "Produto 3", name: "desc3", widget: "string" }
+          #             - { label: "Preço do produto 3", name: "price3", widget: "string" }
+          #             - { label: "Produto 4", name: "desc4", widget: "string" }
+          #             - { label: "Preço do produto 4", name: "price4", widget: "string" }
+          #             - { label: "Produto 5", name: "desc5", widget: "string" }
+          #             - { label: "Preço do produto 5", name: "price5", widget: "string" }
+          #         - label: "Puddim"
+          #           name: pudding
+          #           widget: object
+          #           fields:
+          #             - { label: "Titulo", name: "title", widget: "string" }
+          #             - { label: "Produto 1", name: "desc1", widget: "string" }
+          #             - { label: "Preço do produto 1", name: "price1", widget: "string" }
+          # - label: "Portugues" 
+          #   name: pt
+          #   widget: "object"
+          #   fields: 
+          #     - label: "Snacks"
+          #       name: snacks
+          #       widget: object
+          #       fields:
+          #         - { label: "Titulo", name: "title", widget: "string" }
+          #         - label: "Sandes frio"
+          #           name: cold_sandwich
+          #           widget: object
+          #           fields:
+          #             - { label: "Titulo", name: "title", widget: "string" }
+          #             - { label: "Produto 1", name: "desc1", widget: "string" }
+          #             - { label: "Preço do produto 1", name: "price1", widget: "string" }
+          #             - { label: "Produto 2", name: "desc2", widget: "string" }
+          #             - { label: "Preço do produto 2", name: "price2", widget: "string" }
+          #             - { label: "Produto 3", name: "desc3", widget: "string" }
+          #             - { label: "Preço do produto 3", name: "price3", widget: "string" }
+          #         - label: "Sandes quente"
+          #           name: hot_sandwich
+          #           widget: object
+          #           fields:
+          #             - { label: "Titulo", name: "title", widget: "string" }
+          #             - { label: "Produto 1", name: "desc1", widget: "string" }
+          #             - { label: "Preço do produto 1", name: "price1", widget: "string" }
+          #             - { label: "Produto 2", name: "desc2", widget: "string" }
+          #             - { label: "Preço do produto 2", name: "price2", widget: "string" }
+          #             - { label: "Produto 3", name: "desc3", widget: "string" }
+          #             - { label: "Preço do produto 3", name: "price3", widget: "string" }
+          #             - { label: "Produto 4", name: "desc4", widget: "string" }
+          #             - { label: "Preço do produto 4", name: "price4", widget: "string" }
+          #             - { label: "Produto 5", name: "desc5", widget: "string" }
+          #             - { label: "Preço do produto 5", name: "price5", widget: "string" }
+          #             - { label: "Produto 6", name: "desc6", widget: "string" }
+          #             - { label: "Preço do produto 6", name: "price6", widget: "string" }
+          #         - label: "Tábuas"
+          #           name: platters
+          #           widget: object
+          #           fields:
+          #             - { label: "Titulo", name: "title", widget: "string" }
+          #             - { label: "Produto 1", name: "desc1", widget: "string" }
+          #             - { label: "Preço do produto 1", name: "price1", widget: "string" }
+          #             - { label: "Produto 2", name: "desc2", widget: "string" }
+          #             - { label: "Preço do produto 2", name: "price2", widget: "string" }
+          #             - { label: "Produto 3", name: "desc3", widget: "string" }
+          #             - { label: "Preço do produto 3", name: "price3", widget: "string" }
+          #         - label: "Gelado"
+          #           name: ice_cream
+          #           widget: object
+          #           fields:
+          #             - { label: "Titulo", name: "title", widget: "string" }
+          #             - { label: "Produto 1", name: "desc1", widget: "string" }
+          #             - { label: "Preço do produto 1", name: "price1", widget: "string" }
+          #             - { label: "Produto 2", name: "desc2", widget: "string" }
+          #             - { label: "Preço do produto 2", name: "price2", widget: "string" }
+          #             - { label: "Produto 3", name: "desc3", widget: "string" }
+          #             - { label: "Preço do produto 3", name: "price3", widget: "string" }
+          #             - { label: "Produto 4", name: "desc4", widget: "string" }
+          #             - { label: "Preço do produto 4", name: "price4", widget: "string" }
+          #             - { label: "Produto 5", name: "desc5", widget: "string" }
+          #             - { label: "Preço do produto 5", name: "price5", widget: "string" }
+          #         - label: "Puddim"
+          #           name: pudding
+          #           widget: object
+          #           fields:
+          #             - { label: "Titulo", name: "title", widget: "string" }
+          #             - { label: "Produto 1", name: "desc1", widget: "string" }
+          #             - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      # # ---| BEBIDAS |--- 
+      # - name: "bebidas"
+      #   label: "Bebidas"
+      #   file: "_data/bebidas.yml"
+      #   description: Everything needed for the index
+      #   fields:
+      #     - label: "Ingles" # ---| ingles |---
+      #       name: en
+      #       widget: "object"
+      #       fields:
+      #         - label: "Bebidas"
+      #           name: beverage
+      #           widget: object
+      #           fields:
+      #             - { label: "Titulo", name: "title", widget: "string" }
+      #             - label: "Cafés"
+      #               name: coffees
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                 - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                 - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                 - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                 - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                 - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                 - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                 - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                 - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                 - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #                 - { label: "Produto 6", name: "desc6", widget: "string" }
+      #                 - { label: "Preço do produto 6", name: "price6", widget: "string" }
+      #                 - { label: "Produto 7", name: "desc7", widget: "string" }
+      #                 - { label: "Preço do produto 7", name: "price7", widget: "string" }
+      #                 - { label: "Produto 8", name: "desc8", widget: "string" }
+      #                 - { label: "Preço do produto 8", name: "price8", widget: "string" }
+      #                 - { label: "Produto 9", name: "desc9", widget: "string" }
+      #                 - { label: "Preço do produto 9", name: "price9", widget: "string" }
+      #                 - { label: "Produto 10", name: "desc10", widget: "string" }
+      #                 - { label: "Preço do produto 10", name: "price10", widget: "string" }
+      #                 - { label: "Produto 11", name: "desc11", widget: "string" }
+      #                 - { label: "Preço do produto 11", name: "price11", widget: "string" }
+      #                 - { label: "Produto 12", name: "desc12", widget: "string" }
+      #                 - { label: "Preço do produto 12", name: "price12", widget: "string" }
+      #                 - { label: "Produto 13", name: "desc13", widget: "string" }
+      #                 - { label: "Preço do produto 13", name: "price13", widget: "string" }
+      #                 - { label: "Produto 14", name: "desc14", widget: "string" }
+      #                 - { label: "Preço do produto 14", name: "price14", widget: "string" }
+      #                 - { label: "Produto 15", name: "desc15", widget: "string" }
+      #                 - { label: "Preço do produto 15", name: "price15", widget: "string" }
+      #             - label: "Batidos"
+      #               name: shakes
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                 - { label: "Preço do produto 1", name: "price", widget: "string" }
+      #             - label: "Sem Alcool"
+      #               name: non_alcohol
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                 - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                 - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                 - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                 - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                 - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                 - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                 - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                 - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                 - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #                 - { label: "Produto 6", name: "desc6", widget: "string" }
+      #                 - { label: "Preço do produto 6", name: "price6", widget: "string" }
+      #                 - { label: "Produto 7", name: "desc7", widget: "string" }
+      #                 - { label: "Preço do produto 7", name: "price7", widget: "string" }
+      #                 - { label: "Produto 8", name: "desc8", widget: "string" }
+      #                 - { label: "Preço do produto 8", name: "price8", widget: "string" }
+      #                 - { label: "Produto 9", name: "desc9", widget: "string" }
+      #                 - { label: "Preço do produto 9", name: "price9", widget: "string" }
+      #                 - { label: "Produto 10", name: "desc10", widget: "string" }
+      #                 - { label: "Preço do produto 10", name: "price10", widget: "string" }
+      #                 - { label: "Produto 11", name: "desc11", widget: "string" }
+      #                 - { label: "Preço do produto 11", name: "price11", widget: "string" }
+      #             - label: "Alcool"
+      #               name: alcohol
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - label: "Cervejas"
+      #                   name: beers
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                     - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                     - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                     - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                     - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #                     - { label: "Produto 6", name: "desc6", widget: "string" }
+      #                     - { label: "Preço do produto 6", name: "price6", widget: "string" }
+      #                     - { label: "Produto 7", name: "desc7", widget: "string" }
+      #                     - { label: "Preço do produto 7", name: "price7", widget: "string" }
+      #                     - { label: "Produto 8", name: "desc8", widget: "string" }
+      #                     - { label: "Preço do produto 8", name: "price8", widget: "string" }
+      #                 - label: "Sangria"
+      #                   name: sangria
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                 - label: "Aperitifs"
+      #                   name: aperitifs
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                     - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                     - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                     - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                     - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #                 - label: "Vinhos"
+      #                   name: wines
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                     - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                     - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                     - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                     - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #                     - { label: "Produto 6", name: "desc6", widget: "string" }
+      #                     - { label: "Preço do produto 6", name: "price6", widget: "string" }
+      #                     - { label: "Produto 7", name: "desc7", widget: "string" }
+      #                     - { label: "Preço do produto 7", name: "price7", widget: "string" }
+      #                     - { label: "Produto 8", name: "desc8", widget: "string" }
+      #                     - { label: "Preço do produto 8", name: "price8", widget: "string" }
+      #                     - { label: "Produto 9", name: "desc9", widget: "string" }
+      #                     - { label: "Preço do produto 9", name: "price9", widget: "string" }
+      #                     - { label: "Produto 10", name: "desc10", widget: "string" }
+      #                     - { label: "Preço do produto 10", name: "price10", widget: "string" }
+      #                     - { label: "Produto 11", name: "desc11", widget: "string" }
+      #                     - { label: "Preço do produto 11", name: "price11", widget: "string" }
+      #                 - label: "Licores"
+      #                   name: liqueurs
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                     - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                     - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                     - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                     - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #                     - { label: "Produto 6", name: "desc6", widget: "string" }
+      #                     - { label: "Preço do produto 6", name: "price6", widget: "string" }
+      #                     - { label: "Produto 7", name: "desc7", widget: "string" }
+      #                     - { label: "Preço do produto 7", name: "price7", widget: "string" }
+      #                     - { label: "Produto 8", name: "desc8", widget: "string" }
+      #                     - { label: "Preço do produto 8", name: "price8", widget: "string" }
+      #                     - { label: "Produto 9", name: "desc9", widget: "string" }
+      #                     - { label: "Preço do produto 9", name: "price9", widget: "string" }
+      #                 - label: "GIN"
+      #                   name: gin
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                     - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                     - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                     - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                     - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #                     - { label: "Produto 6", name: "desc6", widget: "string" }
+      #                     - { label: "Preço do produto 6", name: "price6", widget: "string" }
+      #                     - { label: "Produto 7", name: "desc7", widget: "string" }
+      #                     - { label: "Preço do produto 7", name: "price7", widget: "string" }
+      #                     - { label: "Produto 8", name: "desc8", widget: "string" }
+      #                     - { label: "Preço do produto 8", name: "price8", widget: "string" }
+      #                     - { label: "Produto 9", name: "desc9", widget: "string" }
+      #                     - { label: "Preço do produto 9", name: "price9", widget: "string" }
+      #                     - { label: "Produto 10", name: "desc10", widget: "string" }
+      #                     - { label: "Preço do produto 10", name: "price10", widget: "string" }
+      #                     - { label: "Produto 11", name: "desc11", widget: "string" }
+      #                     - { label: "Preço do produto 11", name: "price11", widget: "string" }
+      #                     - { label: "Produto 12", name: "desc12", widget: "string" }
+      #                     - { label: "Preço do produto 12", name: "price12", widget: "string" }
+      #                 - label: "Vodka / Rum / Tequila"
+      #                   name: vodka
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                     - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                     - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                     - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                     - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #                     - { label: "Produto 6", name: "desc6", widget: "string" }
+      #                     - { label: "Preço do produto 6", name: "price6", widget: "string" }
+      #                     - { label: "Produto 7", name: "desc7", widget: "string" }
+      #                     - { label: "Preço do produto 7", name: "price7", widget: "string" }
+      #                     - { label: "Produto 8", name: "desc8", widget: "string" }
+      #                     - { label: "Preço do produto 8", name: "price8", widget: "string" }
+      #                 - label: "Whisky Novo"
+      #                   name: whisky_new
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                 - label: "Whisky Velho"
+      #                   name: whisky_old
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                     - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                     - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                     - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                     - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #                 - label: "Malt"
+      #                   name: malt
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                 - label: "Irish"
+      #                   name: irish
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                 - label: "Americano"
+      #                   name: american
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                 - label: "Aguardente / Brandy / Cognac / Armagnac"
+      #                   name: aguardente
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                     - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                     - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                     - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                     - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #                     - { label: "Produto 6", name: "desc6", widget: "string" }
+      #                     - { label: "Preço do produto 6", name: "price6", widget: "string" }
+      #                     - { label: "Produto 7", name: "desc7", widget: "string" }
+      #                     - { label: "Preço do produto 7", name: "price7", widget: "string" }
+      #                     - { label: "Produto 8", name: "desc8", widget: "string" }
+      #                     - { label: "Preço do produto 8", name: "price8", widget: "string" }
+      #                 - label: "Cocktails de Alcool"
+      #                   name: cocktails_alcohol
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                     - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                     - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                     - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                     - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #                     - { label: "Produto 6", name: "desc6", widget: "string" }
+      #                     - { label: "Preço do produto 6", name: "price6", widget: "string" }
+      #                     - { label: "Produto 7", name: "desc7", widget: "string" }
+      #                     - { label: "Preço do produto 7", name: "price7", widget: "string" }
+      #                     - { label: "Produto 8", name: "desc8", widget: "string" }
+      #                     - { label: "Preço do produto 8", name: "price8", widget: "string" }
+      #                     - { label: "Produto 9", name: "desc9", widget: "string" }
+      #                     - { label: "Preço do produto 9", name: "price9", widget: "string" }
+      #                 - label: "Cocktails sem Alcool"
+      #                   name: cocktails_non_alcohol
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #     - label: "Portugues" 
+      #       name: pt
+      #       widget: "object"
+      #       fields: 
+      #         - label: "Bebidas"
+      #           name: beverage
+      #           widget: object
+      #           fields:
+      #             - { label: "Titulo", name: "title", widget: "string" }
+      #             - label: "Cafés"
+      #               name: coffees
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                 - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                 - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                 - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                 - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                 - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                 - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                 - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                 - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                 - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #                 - { label: "Produto 6", name: "desc6", widget: "string" }
+      #                 - { label: "Preço do produto 6", name: "price6", widget: "string" }
+      #                 - { label: "Produto 7", name: "desc7", widget: "string" }
+      #                 - { label: "Preço do produto 7", name: "price7", widget: "string" }
+      #                 - { label: "Produto 8", name: "desc8", widget: "string" }
+      #                 - { label: "Preço do produto 8", name: "price8", widget: "string" }
+      #                 - { label: "Produto 9", name: "desc9", widget: "string" }
+      #                 - { label: "Preço do produto 9", name: "price9", widget: "string" }
+      #                 - { label: "Produto 10", name: "desc10", widget: "string" }
+      #                 - { label: "Preço do produto 10", name: "price10", widget: "string" }
+      #                 - { label: "Produto 11", name: "desc11", widget: "string" }
+      #                 - { label: "Preço do produto 11", name: "price11", widget: "string" }
+      #                 - { label: "Produto 12", name: "desc12", widget: "string" }
+      #                 - { label: "Preço do produto 12", name: "price12", widget: "string" }
+      #                 - { label: "Produto 13", name: "desc13", widget: "string" }
+      #                 - { label: "Preço do produto 13", name: "price13", widget: "string" }
+      #                 - { label: "Produto 14", name: "desc14", widget: "string" }
+      #                 - { label: "Preço do produto 14", name: "price14", widget: "string" }
+      #                 - { label: "Produto 15", name: "desc15", widget: "string" }
+      #                 - { label: "Preço do produto 15", name: "price15", widget: "string" }
+      #             - label: "Batidos"
+      #               name: shakes
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                 - { label: "Preço do produto 1", name: "price", widget: "string" }
+      #             - label: "Sem Alcool"
+      #               name: non_alcohol
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                 - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                 - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                 - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                 - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                 - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                 - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                 - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                 - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                 - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #                 - { label: "Produto 6", name: "desc6", widget: "string" }
+      #                 - { label: "Preço do produto 6", name: "price6", widget: "string" }
+      #                 - { label: "Produto 7", name: "desc7", widget: "string" }
+      #                 - { label: "Preço do produto 7", name: "price7", widget: "string" }
+      #                 - { label: "Produto 8", name: "desc8", widget: "string" }
+      #                 - { label: "Preço do produto 8", name: "price8", widget: "string" }
+      #                 - { label: "Produto 9", name: "desc9", widget: "string" }
+      #                 - { label: "Preço do produto 9", name: "price9", widget: "string" }
+      #                 - { label: "Produto 10", name: "desc10", widget: "string" }
+      #                 - { label: "Preço do produto 10", name: "price10", widget: "string" }
+      #                 - { label: "Produto 11", name: "desc11", widget: "string" }
+      #                 - { label: "Preço do produto 11", name: "price11", widget: "string" }
+      #             - label: "Alcool"
+      #               name: alcohol
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - label: "Cervejas"
+      #                   name: beers
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                     - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                     - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                     - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                     - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #                     - { label: "Produto 6", name: "desc6", widget: "string" }
+      #                     - { label: "Preço do produto 6", name: "price6", widget: "string" }
+      #                     - { label: "Produto 7", name: "desc7", widget: "string" }
+      #                     - { label: "Preço do produto 7", name: "price7", widget: "string" }
+      #                     - { label: "Produto 8", name: "desc8", widget: "string" }
+      #                     - { label: "Preço do produto 8", name: "price8", widget: "string" }
+      #                 - label: "Sangria"
+      #                   name: sangria
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                 - label: "Aperitifs"
+      #                   name: aperitifs
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                     - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                     - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                     - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                     - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #                 - label: "Vinhos"
+      #                   name: wines
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                     - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                     - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                     - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                     - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #                     - { label: "Produto 6", name: "desc6", widget: "string" }
+      #                     - { label: "Preço do produto 6", name: "price6", widget: "string" }
+      #                     - { label: "Produto 7", name: "desc7", widget: "string" }
+      #                     - { label: "Preço do produto 7", name: "price7", widget: "string" }
+      #                     - { label: "Produto 8", name: "desc8", widget: "string" }
+      #                     - { label: "Preço do produto 8", name: "price8", widget: "string" }
+      #                     - { label: "Produto 9", name: "desc9", widget: "string" }
+      #                     - { label: "Preço do produto 9", name: "price9", widget: "string" }
+      #                     - { label: "Produto 10", name: "desc10", widget: "string" }
+      #                     - { label: "Preço do produto 10", name: "price10", widget: "string" }
+      #                     - { label: "Produto 11", name: "desc11", widget: "string" }
+      #                     - { label: "Preço do produto 11", name: "price11", widget: "string" }
+      #                 - label: "Licores"
+      #                   name: liqueurs
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                     - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                     - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                     - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                     - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #                     - { label: "Produto 6", name: "desc6", widget: "string" }
+      #                     - { label: "Preço do produto 6", name: "price6", widget: "string" }
+      #                     - { label: "Produto 7", name: "desc7", widget: "string" }
+      #                     - { label: "Preço do produto 7", name: "price7", widget: "string" }
+      #                     - { label: "Produto 8", name: "desc8", widget: "string" }
+      #                     - { label: "Preço do produto 8", name: "price8", widget: "string" }
+      #                     - { label: "Produto 9", name: "desc9", widget: "string" }
+      #                     - { label: "Preço do produto 9", name: "price9", widget: "string" }
+      #                 - label: "GIN"
+      #                   name: gin
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                     - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                     - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                     - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                     - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #                     - { label: "Produto 6", name: "desc6", widget: "string" }
+      #                     - { label: "Preço do produto 6", name: "price6", widget: "string" }
+      #                     - { label: "Produto 7", name: "desc7", widget: "string" }
+      #                     - { label: "Preço do produto 7", name: "price7", widget: "string" }
+      #                     - { label: "Produto 8", name: "desc8", widget: "string" }
+      #                     - { label: "Preço do produto 8", name: "price8", widget: "string" }
+      #                     - { label: "Produto 9", name: "desc9", widget: "string" }
+      #                     - { label: "Preço do produto 9", name: "price9", widget: "string" }
+      #                     - { label: "Produto 10", name: "desc10", widget: "string" }
+      #                     - { label: "Preço do produto 10", name: "price10", widget: "string" }
+      #                     - { label: "Produto 11", name: "desc11", widget: "string" }
+      #                     - { label: "Preço do produto 11", name: "price11", widget: "string" }
+      #                     - { label: "Produto 12", name: "desc12", widget: "string" }
+      #                     - { label: "Preço do produto 12", name: "price12", widget: "string" }
+      #                 - label: "Vodka / Rum / Tequila"
+      #                   name: vodka
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                     - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                     - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                     - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                     - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #                     - { label: "Produto 6", name: "desc6", widget: "string" }
+      #                     - { label: "Preço do produto 6", name: "price6", widget: "string" }
+      #                     - { label: "Produto 7", name: "desc7", widget: "string" }
+      #                     - { label: "Preço do produto 7", name: "price7", widget: "string" }
+      #                     - { label: "Produto 8", name: "desc8", widget: "string" }
+      #                     - { label: "Preço do produto 8", name: "price8", widget: "string" }
+      #                 - label: "Whisky Novo"
+      #                   name: whisky_new
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                 - label: "Whisky Velho"
+      #                   name: whisky_old
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                     - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                     - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                     - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                     - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #                 - label: "Malt"
+      #                   name: malt
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                 - label: "Irish"
+      #                   name: irish
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                 - label: "Americano"
+      #                   name: american
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                 - label: "Aguardente / Brandy / Cognac / Armagnac"
+      #                   name: aguardente
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                     - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                     - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                     - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                     - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #                     - { label: "Produto 6", name: "desc6", widget: "string" }
+      #                     - { label: "Preço do produto 6", name: "price6", widget: "string" }
+      #                     - { label: "Produto 7", name: "desc7", widget: "string" }
+      #                     - { label: "Preço do produto 7", name: "price7", widget: "string" }
+      #                     - { label: "Produto 8", name: "desc8", widget: "string" }
+      #                     - { label: "Preço do produto 8", name: "price8", widget: "string" }
+      #                 - label: "Cocktails de Alcool"
+      #                   name: cocktails_alcohol
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                     - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                     - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                     - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                     - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #                     - { label: "Produto 6", name: "desc6", widget: "string" }
+      #                     - { label: "Preço do produto 6", name: "price6", widget: "string" }
+      #                     - { label: "Produto 7", name: "desc7", widget: "string" }
+      #                     - { label: "Preço do produto 7", name: "price7", widget: "string" }
+      #                     - { label: "Produto 8", name: "desc8", widget: "string" }
+      #                     - { label: "Preço do produto 8", name: "price8", widget: "string" }
+      #                     - { label: "Produto 9", name: "desc9", widget: "string" }
+      #                     - { label: "Preço do produto 9", name: "price9", widget: "string" }
+      #                 - label: "Cocktails sem Alcool"
+      #                   name: cocktails_non_alcohol
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      # # ---| VINHOS |---
+      # - name: "wines"
+      #   label: "Vinhos"
+      #   file: "_data/wines.yml"
+      #   description: Everything needed for the index
+      #   fields:
+      #     - label: "Ingles" # ---| ingles |---
+      #       name: en
+      #       widget: "object"
+      #       fields:
+      #         - label: "Vinhos"
+      #           name: vinhos
+      #           widget: object
+      #           fields:
+      #             - { label: "Titulo", name: "title", widget: "string" }
+      #             - label: "Vinhos Verde"
+      #               name: vinhos_verde
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - label: "Branco"
+      #                   name: white_wine
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                     - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                     - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                     - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                     - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #                     - { label: "Produto 6", name: "desc6", widget: "string" }
+      #                     - { label: "Preço do produto 6", name: "price6", widget: "string" }
+      #                 - label: "Tinto"
+      #                   name: tinto
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #             - label: "Dao"
+      #               name: dao
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - label: "Branco"
+      #                   name: white_wine
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                 - label: "Tinto"
+      #                   name: tinto
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #             - label: "Douro"
+      #               name: douro
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - label: "Branco"
+      #                   name: white_wine
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                     - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                     - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                     - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                     - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #                 - label: "Tinto"
+      #                   name: tinto
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                     - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                     - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                     - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                     - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #             - label: "Bairrada"
+      #               name: bairrada
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - label: "Branco"
+      #                   name: white_wine
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                 - label: "Tinto"
+      #                   name: tinto
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #             - label: "Beiras"
+      #               name: beiras
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - label: "Branco"
+      #                   name: white_wine
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                 - label: "Tinto"
+      #                   name: tinto
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #             - label: "Alentejo"
+      #               name: alentejo
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - label: "Branco"
+      #                   name: white_wine
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                     - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                     - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                     - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                     - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #                 - label: "Tinto"
+      #                   name: tinto
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                     - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                     - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                     - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                     - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #             - label: "Rosé"
+      #               name: rose
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                 - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                 - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                 - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                 - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                 - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                 - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                 - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #             - label: "Espomantes"
+      #               name: sparkling_wines
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                 - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                 - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                 - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                 - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                 - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                 - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                 - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #             - label: "Champanhe"
+      #               name: champagne
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                 - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                 - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                 - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                 - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                 - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                 - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                 - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                 - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                 - { label: "Preço do produto 5", name: "price5", widget: "string" }   
+      #     - label: "Portugues" 
+      #       name: pt
+      #       widget: "object"
+      #       fields: 
+      #         - label: "Vinhos"
+      #           name: vinhos
+      #           widget: object
+      #           fields:
+      #             - { label: "Titulo", name: "title", widget: "string" }
+      #             - label: "Vinhos Verde"
+      #               name: vinhos_verde
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - label: "Branco"
+      #                   name: white_wine
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                     - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                     - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                     - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                     - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #                     - { label: "Produto 6", name: "desc6", widget: "string" }
+      #                     - { label: "Preço do produto 6", name: "price6", widget: "string" }
+      #                 - label: "Tinto"
+      #                   name: tinto
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #             - label: "Dao"
+      #               name: dao
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - label: "Branco"
+      #                   name: white_wine
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                 - label: "Tinto"
+      #                   name: tinto
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #             - label: "Douro"
+      #               name: douro
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - label: "Branco"
+      #                   name: white_wine
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                     - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                     - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                     - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                     - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #                 - label: "Tinto"
+      #                   name: tinto
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                     - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                     - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                     - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                     - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #             - label: "Bairrada"
+      #               name: bairrada
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - label: "Branco"
+      #                   name: white_wine
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                 - label: "Tinto"
+      #                   name: tinto
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #             - label: "Beiras"
+      #               name: beiras
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - label: "Branco"
+      #                   name: white_wine
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                 - label: "Tinto"
+      #                   name: tinto
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #             - label: "Alentejo"
+      #               name: alentejo
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - label: "Branco"
+      #                   name: white_wine
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                     - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                     - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                     - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                     - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #                 - label: "Tinto"
+      #                   name: tinto
+      #                   widget: object
+      #                   fields:
+      #                     - { label: "Titulo", name: "title", widget: "string" }
+      #                     - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                     - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                     - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                     - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                     - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                     - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                     - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                     - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                     - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                     - { label: "Preço do produto 5", name: "price5", widget: "string" }
+      #             - label: "Rosé"
+      #               name: rose
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                 - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                 - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                 - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                 - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                 - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                 - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                 - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #             - label: "Espomantes"
+      #               name: sparkling_wines
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                 - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                 - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                 - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                 - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                 - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                 - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                 - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #             - label: "Champanhe"
+      #               name: champagne
+      #               widget: object
+      #               fields:
+      #                 - { label: "Titulo", name: "title", widget: "string" }
+      #                 - { label: "Produto 1", name: "desc1", widget: "string" }
+      #                 - { label: "Preço do produto 1", name: "price1", widget: "string" }
+      #                 - { label: "Produto 2", name: "desc2", widget: "string" }
+      #                 - { label: "Preço do produto 2", name: "price2", widget: "string" }
+      #                 - { label: "Produto 3", name: "desc3", widget: "string" }
+      #                 - { label: "Preço do produto 3", name: "price3", widget: "string" }
+      #                 - { label: "Produto 4", name: "desc4", widget: "string" }
+      #                 - { label: "Preço do produto 4", name: "price4", widget: "string" }
+      #                 - { label: "Produto 5", name: "desc5", widget: "string" }
+      #                 - { label: "Preço do produto 5", name: "price5", widget: "string" }       
