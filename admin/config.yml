@@ -31,8 +31,8 @@ collections: #====================| POSTS |=====================================
                   - { label: "Titulo", name: "title", widget: "string" }
                   - { label: "Descrição", name: "desc", widget: "markdown" }
       - name: "petiscos"
-        label: "Ementa 2"
-        file: "_data/petiscos.yaml"
+        label: "Ementa 2 - é petiscos"
+        file: "_data/ementa.yml"
         description: Everything needed for the index
         fields:
           - label: "Ingles" # ---| ingles |---
