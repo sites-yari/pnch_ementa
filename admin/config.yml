@@ -24,6 +24,12 @@ collections: #====================| POSTS |=====================================
             name: en
             widget: "object"
             fields:
+              - label: "Informação principal" # ---| top title |---
+                name: ementa_main_context
+                widget: "object"
+                fields:
+                  - { label: "Titulo", name: "title", widget: "string" }
+                  - { label: "Descrição", name: "desc", widget: "markdown" }
       - name: "petiscos"
         label: "Petiscos"
         file: "_data/petiscos.yml"
@@ -32,7 +38,12 @@ collections: #====================| POSTS |=====================================
           - label: "Ingles" # ---| ingles |---
             name: en
             widget: "object"
-            fields:
+            fields: 
+              - label: "Snacks"
+                name: snacks
+                widget: object
+                fields:
+                  - { label: "Titulo", name: "title", widget: "string" }
       # ---| INDEX |---
       # - name: "ementa"
       #   label: "Ementa"
