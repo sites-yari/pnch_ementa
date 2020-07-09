@@ -31,6 +31,21 @@ collections: #====================| POSTS |=====================================
                   - { label: "Titulo", name: "title", widget: "string" }
                   - { label: "Descrição", name: "desc", widget: "markdown" }
       - name: "petiscos"
+        label: "Ementa 2"
+        file: "_data/petiscos.yml"
+        description: Everything needed for the index
+        fields:
+          - label: "Ingles" # ---| ingles |---
+            name: en
+            widget: "object"
+            fields:
+              - label: "Informação principal" # ---| top title |---
+                name: ementa_main_context
+                widget: "object"
+                fields:
+                  - { label: "Titulo", name: "title", widget: "string" }
+                  - { label: "Descrição", name: "desc", widget: "markdown" }
+      - name: "petiscos"
         label: "Petiscos"
         file: "_data/petiscos.yml"
         description: Everything about petiscos
