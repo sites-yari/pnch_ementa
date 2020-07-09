@@ -179,7 +179,7 @@ collections: #====================| POSTS |=====================================
                       - { label: "Produto 1", name: "desc1", widget: "string" }
                       - { label: "Preço do produto 1", name: "price1", widget: "string" }
               - label: "Bebidas"
-                name: Beverage
+                name: beverage
                 widget: object
                 fields:
                   - { label: "Titulo", name: "title", widget: "string" }
