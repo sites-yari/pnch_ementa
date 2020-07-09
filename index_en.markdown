@@ -1,6 +1,6 @@
 ---
-layout: default
-title: PNCH ementa - PT
+layout: en_default
+title: PNCH ementa - EN
 class: index
 ---
 
@@ -9,10 +9,10 @@ class: index
   <div class="pd-30">
     <div class="main_info col-md-12 ">
       <div class="text-center">
-        <p class="ementa_title">{{site.data.ementa.pt.ementa_main_context.title}}</p>
+        <p class="ementa_title">{{site.data.ementa.en.ementa_main_context.title}}</p>
       </div>
       <div>
-        <p class="ementa_desc big_screen_organize">{{site.data.ementa.pt.ementa_main_context.desc}}</p>
+        <p class="ementa_desc big_screen_organize">{{site.data.ementa.en.ementa_main_context.desc}}</p>
       </div>
     </div>
   
@@ -22,22 +22,23 @@ class: index
     </div>
     <div class="menu_content pd-10">
       <div class="big_screen_organize">
-        <p class="ementa_title ementa_content">Ementa</p>
-        <p class="ementa_desc">{{site.data.ementa.pt.menu.desc}}</p>
+        <p class="ementa_title ementa_content">Menu</p>
+        <p class="ementa_desc">{{site.data.ementa.en.menu.desc}}</p>
       </div>
     </div>
   
     <!-- a la carte -->
-    {% include pt_menu.html %}
+    {% include en_menu.html %}
   
     <!-- snaks -->
-    {% include pt_snacks.html %}
+    {% include en_snacks.html %}
   
     <!-- Beverage -->
-    {% include pt_beverage.html %}
+    {% include en_beverage.html %}
   
     <!-- Wines -->
-    {% include pt_wines.html %}
+    {% include en_wines.html %}
+  </div>
 
 
   <script>
@@ -51,4 +52,4 @@ class: index
       });
     }
   </script>
-<!-- </body> -->
+</body>
